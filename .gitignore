@@ -1,0 +1,28 @@
+# Fichiers Kaggle complets (2021 : 346 Mo en zip, 2022 : 143 Mo),
+# au-dessus de la limite GitHub de 100 Mo par fichier.
+# À télécharger depuis Kaggle : voir README, section « Lancer le projet ».
+data/raw/Combined_Flights_*
+*.zip
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environnements et secrets (ne jamais publier d'identifiants Kaggle)
+.venv/
+venv/
+.env
+kaggle.json
+
+# Système
+.DS_Store
+Thumbs.db
+~$*
+
+# Base SQLite (163 Mo) : recréée par python src/base_de_donnees.py
+data/atlanta_vols.sqlite
+
+# Outils locaux
+.ruff_cache/
+.pytest_cache/

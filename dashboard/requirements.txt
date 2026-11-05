@@ -1,0 +1,10 @@
+# Dépendances du dashboard (utilisées par Streamlit Community Cloud).
+# Versions minimales plutôt qu'exactes : le serveur installe les versions compatibles avec son Python.
+streamlit>=1.40
+pandas>=2.2
+numpy>=1.26
+pyarrow>=14       # lecture des fichiers Parquet (données et résultats d'échantillonnage)
+plotly>=5.20
+matplotlib>=3.8
+scipy>=1.11       # tests statistiques (approfondissement)
+scikit-learn>=1.3  # ACP (chapitre 6)

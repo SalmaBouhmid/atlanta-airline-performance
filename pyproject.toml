@@ -1,0 +1,18 @@
+[project]
+name = "atlanta-airline-performance"
+version = "1.0.0"
+description = "Which airlines are the most reliable at Atlanta (ATL)? 319,335 flights, a SQLite star schema and an interactive Streamlit dashboard."
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+[tool.ruff]
+line-length = 140
+extend-exclude = ["notebooks"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W"]
+# Les longues lignes sont surtout des textes explicatifs en français (dashboard, notebook) : on ne les coupe pas.
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

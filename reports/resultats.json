@@ -1,0 +1,3225 @@
+{
+  "population": {
+    "debut": "2021-08-01",
+    "fin": "2022-07-31",
+    "nb_vols": 319335,
+    "nb_jours": 365,
+    "nb_mois": 12,
+    "nb_compagnies": 14,
+    "nb_destinations": 159,
+    "part_delta_pct": 64.3,
+    "part_par_type_pct": {
+      "Majeure": 68.1,
+      "Régionale": 16.6,
+      "Bas coût": 15.3
+    }
+  },
+  "qualite": {
+    "nb_annules": 4491,
+    "nb_annules_sans_retard_mesure": 4427,
+    "nb_annules_partis_de_la_porte": 64,
+    "nb_sans_immatriculation": 443,
+    "nb_lignes_en_double": 0
+  },
+  "indicateurs": {
+    "nb_vols": 319335,
+    "pct_retard": 18.6,
+    "pct_retard_ou_annule": 19.7,
+    "pct_annules": 1.4,
+    "retard_median_min": -1.0,
+    "retard_moyen_des_vols_en_retard_min": 57.4,
+    "domino_pct_si_precedent_a_l_heure": 15.4,
+    "domino_pct_si_precedent_en_retard": 40.5
+  },
+  "zoom_ete_2022": {
+    "nb_vols": 54461,
+    "pct_retard": 26.2,
+    "pct_retard_ou_annule": 27.6,
+    "pct_annules": 1.9,
+    "retard_median_min": 0.0,
+    "retard_moyen_des_vols_en_retard_min": 63.5,
+    "domino_pct_si_precedent_a_l_heure": 24.1,
+    "domino_pct_si_precedent_en_retard": 50.0
+  },
+  "descriptifs": {
+    "Retard au départ (min)": {
+      "n": 314908.0,
+      "manquants": 4427.0,
+      "moyenne": 9.6,
+      "médiane": -1.0,
+      "écart-type": 41.0,
+      "min": -32.0,
+      "Q1": -4.0,
+      "Q3": 7.0,
+      "IQR": 11.0,
+      "P90": 33.0,
+      "P99": 153.0,
+      "max": 2650.0,
+      "moyenne - médiane": 10.6,
+      "atypiques (%)": 13.2
+    },
+    "Retard à l'arrivée (min)": {
+      "n": 314174.0,
+      "manquants": 5161.0,
+      "moyenne": 4.0,
+      "médiane": -5.0,
+      "écart-type": 42.2,
+      "min": -64.0,
+      "Q1": -12.0,
+      "Q3": 6.0,
+      "IQR": 18.0,
+      "P90": 31.0,
+      "P99": 150.0,
+      "max": 2647.0,
+      "moyenne - médiane": 9.0,
+      "atypiques (%)": 9.1
+    },
+    "Roulage au départ (min)": {
+      "n": 314855.0,
+      "manquants": 4480.0,
+      "moyenne": 15.3,
+      "médiane": 14.0,
+      "écart-type": 6.4,
+      "min": 1.0,
+      "Q1": 12.0,
+      "Q3": 17.0,
+      "IQR": 5.0,
+      "P90": 22.0,
+      "P99": 39.0,
+      "max": 167.0,
+      "moyenne - médiane": 1.3,
+      "atypiques (%)": 5.9
+    },
+    "Minutes rattrapées en vol": {
+      "n": 314174.0,
+      "manquants": 5161.0,
+      "moyenne": 5.6,
+      "médiane": 7.0,
+      "écart-type": 11.0,
+      "min": -203.0,
+      "Q1": 1.0,
+      "Q3": 12.0,
+      "IQR": 11.0,
+      "P90": 17.0,
+      "P99": 28.0,
+      "max": 61.0,
+      "moyenne - médiane": -1.4,
+      "atypiques (%)": 4.3
+    },
+    "Distance (miles)": {
+      "n": 319335.0,
+      "manquants": 0.0,
+      "moyenne": 657.4,
+      "médiane": 554.0,
+      "écart-type": 482.7,
+      "min": 83.0,
+      "Q1": 356.0,
+      "Q3": 746.0,
+      "IQR": 390.0,
+      "P90": 1282.0,
+      "P99": 2182.0,
+      "max": 4502.0,
+      "moyenne - médiane": 103.4,
+      "atypiques (%)": 9.9
+    }
+  },
+  "classes_retard": {
+    "À l'heure ou en avance": 62.2,
+    "Petit retard (1-15 min)": 18.8,
+    "Retard moyen (16-45 min)": 10.6,
+    "Grand retard (> 45 min)": 7.0,
+    "Annulé": 1.4
+  },
+  "retard_par_mois_pct": {
+    "2021-08": 18.5,
+    "2021-09": 12.5,
+    "2021-10": 14.8,
+    "2021-11": 11.9,
+    "2021-12": 18.4,
+    "2022-01": 15.9,
+    "2022-02": 14.1,
+    "2022-03": 21.6,
+    "2022-04": 21.4,
+    "2022-05": 20.4,
+    "2022-06": 25.5,
+    "2022-07": 26.9
+  },
+  "retard_par_saison_global_pct": {
+    "Automne": 13.1,
+    "Hiver": 16.2,
+    "Printemps": 21.1,
+    "Été": 23.6
+  },
+  "retard_par_tranche_pct": {
+    "Après-midi (14-18 h)": 20.8,
+    "Matin (avant 10 h)": 11.6,
+    "Midi (10-14 h)": 14.5,
+    "Soir (après 18 h)": 24.9
+  },
+  "compagnies": {
+    "Endeavor (Delta Connection)": {
+      "type": "Régionale",
+      "nb_vols": 39972,
+      "part_vols_pct": 12.5,
+      "pct_retard": 9.7,
+      "pct_retard_ou_annule": 10.2,
+      "pct_annules": 0.5,
+      "pct_grand_retard": 4.3,
+      "retard_p90_min": 14.0,
+      "roulage_median_min": 15.0,
+      "rattrapage_median_min": 5.0,
+      "distance_mediane": 350.0,
+      "nb_destinations": 69,
+      "part_vols_soir_pct": 29.7,
+      "marge_95_pct_retard": 0.3
+    },
+    "Mesa": {
+      "type": "Régionale",
+      "nb_vols": 1759,
+      "part_vols_pct": 0.6,
+      "pct_retard": 12.9,
+      "pct_retard_ou_annule": 15.3,
+      "pct_annules": 2.8,
+      "pct_grand_retard": 7.8,
+      "retard_p90_min": 27.0,
+      "roulage_median_min": 15.0,
+      "rattrapage_median_min": 12.0,
+      "distance_mediane": 689.0,
+      "nb_destinations": 4,
+      "part_vols_soir_pct": 9.4,
+      "marge_95_pct_retard": 1.6
+    },
+    "Republic": {
+      "type": "Régionale",
+      "nb_vols": 6794,
+      "part_vols_pct": 2.1,
+      "pct_retard": 14.3,
+      "pct_retard_ou_annule": 16.7,
+      "pct_annules": 2.9,
+      "pct_grand_retard": 7.8,
+      "retard_p90_min": 31.0,
+      "roulage_median_min": 16.0,
+      "rattrapage_median_min": 6.0,
+      "distance_mediane": 606.0,
+      "nb_destinations": 15,
+      "part_vols_soir_pct": 22.3,
+      "marge_95_pct_retard": 0.8
+    },
+    "Delta": {
+      "type": "Majeure",
+      "nb_vols": 205344,
+      "part_vols_pct": 64.3,
+      "pct_retard": 18.1,
+      "pct_retard_ou_annule": 19.1,
+      "pct_annules": 1.2,
+      "pct_grand_retard": 6.4,
+      "retard_p90_min": 31.0,
+      "roulage_median_min": 14.0,
+      "rattrapage_median_min": 6.0,
+      "distance_mediane": 577.0,
+      "nb_destinations": 133,
+      "part_vols_soir_pct": 33.0,
+      "marge_95_pct_retard": 0.2
+    },
+    "American": {
+      "type": "Majeure",
+      "nb_vols": 7607,
+      "part_vols_pct": 2.4,
+      "pct_retard": 17.4,
+      "pct_retard_ou_annule": 19.5,
+      "pct_annules": 2.5,
+      "pct_grand_retard": 8.4,
+      "retard_p90_min": 38.0,
+      "roulage_median_min": 16.0,
+      "rattrapage_median_min": 11.0,
+      "distance_mediane": 666.0,
+      "nb_destinations": 9,
+      "part_vols_soir_pct": 15.2,
+      "marge_95_pct_retard": 0.9
+    },
+    "Envoy": {
+      "type": "Régionale",
+      "nb_vols": 1249,
+      "part_vols_pct": 0.4,
+      "pct_retard": 18.0,
+      "pct_retard_ou_annule": 19.5,
+      "pct_annules": 1.8,
+      "pct_grand_retard": 7.7,
+      "retard_p90_min": 34.5,
+      "roulage_median_min": 15.0,
+      "rattrapage_median_min": 11.0,
+      "distance_mediane": 594.0,
+      "nb_destinations": 5,
+      "part_vols_soir_pct": 21.3,
+      "marge_95_pct_retard": 2.2
+    },
+    "Comair": {
+      "type": "Régionale",
+      "nb_vols": 1210,
+      "part_vols_pct": 0.4,
+      "pct_retard": 18.0,
+      "pct_retard_ou_annule": 19.6,
+      "pct_annules": 2.0,
+      "pct_grand_retard": 8.2,
+      "retard_p90_min": 32.5,
+      "roulage_median_min": 18.0,
+      "rattrapage_median_min": 9.0,
+      "distance_mediane": 226.0,
+      "nb_destinations": 3,
+      "part_vols_soir_pct": 27.5,
+      "marge_95_pct_retard": 2.2
+    },
+    "United": {
+      "type": "Majeure",
+      "nb_vols": 3561,
+      "part_vols_pct": 1.1,
+      "pct_retard": 17.4,
+      "pct_retard_ou_annule": 19.9,
+      "pct_annules": 3.0,
+      "pct_grand_retard": 8.6,
+      "retard_p90_min": 38.8,
+      "roulage_median_min": 16.0,
+      "rattrapage_median_min": 6.0,
+      "distance_mediane": 746.0,
+      "nb_destinations": 6,
+      "part_vols_soir_pct": 14.4,
+      "marge_95_pct_retard": 1.3
+    },
+    "Autres": {
+      "type": "Majeure",
+      "nb_vols": 890,
+      "part_vols_pct": 0.3,
+      "pct_retard": 18.8,
+      "pct_retard_ou_annule": 20.9,
+      "pct_annules": 2.6,
+      "pct_grand_retard": 5.8,
+      "retard_p90_min": 27.4,
+      "roulage_median_min": 17.0,
+      "rattrapage_median_min": 4.0,
+      "distance_mediane": 2182.0,
+      "nb_destinations": 1,
+      "part_vols_soir_pct": 23.1,
+      "marge_95_pct_retard": 2.6
+    },
+    "SkyWest": {
+      "type": "Régionale",
+      "nb_vols": 1949,
+      "part_vols_pct": 0.6,
+      "pct_retard": 19.8,
+      "pct_retard_ou_annule": 21.4,
+      "pct_annules": 2.0,
+      "pct_grand_retard": 12.6,
+      "retard_p90_min": 62.0,
+      "roulage_median_min": 17.0,
+      "rattrapage_median_min": 7.0,
+      "distance_mediane": 606.0,
+      "nb_destinations": 14,
+      "part_vols_soir_pct": 17.4,
+      "marge_95_pct_retard": 1.8
+    },
+    "Spirit": {
+      "type": "Bas coût",
+      "nb_vols": 9056,
+      "part_vols_pct": 2.8,
+      "pct_retard": 24.4,
+      "pct_retard_ou_annule": 27.0,
+      "pct_annules": 3.4,
+      "pct_grand_retard": 11.4,
+      "retard_p90_min": 52.0,
+      "roulage_median_min": 13.0,
+      "rattrapage_median_min": 7.0,
+      "distance_mediane": 594.0,
+      "nb_destinations": 20,
+      "part_vols_soir_pct": 23.4,
+      "marge_95_pct_retard": 0.9
+    },
+    "Frontier": {
+      "type": "Bas coût",
+      "nb_vols": 6764,
+      "part_vols_pct": 2.1,
+      "pct_retard": 28.4,
+      "pct_retard_ou_annule": 30.2,
+      "pct_annules": 2.5,
+      "pct_grand_retard": 14.1,
+      "retard_p90_min": 68.0,
+      "roulage_median_min": 16.0,
+      "rattrapage_median_min": 6.0,
+      "distance_mediane": 666.0,
+      "nb_destinations": 34,
+      "part_vols_soir_pct": 29.4,
+      "marge_95_pct_retard": 1.1
+    },
+    "Southwest": {
+      "type": "Bas coût",
+      "nb_vols": 30874,
+      "part_vols_pct": 9.7,
+      "pct_retard": 29.9,
+      "pct_retard_ou_annule": 31.3,
+      "pct_annules": 1.9,
+      "pct_grand_retard": 10.2,
+      "retard_p90_min": 46.0,
+      "roulage_median_min": 12.0,
+      "rattrapage_median_min": 10.0,
+      "distance_mediane": 547.0,
+      "nb_destinations": 43,
+      "part_vols_soir_pct": 32.3,
+      "marge_95_pct_retard": 0.5
+    },
+    "JetBlue": {
+      "type": "Bas coût",
+      "nb_vols": 2306,
+      "part_vols_pct": 0.7,
+      "pct_retard": 34.4,
+      "pct_retard_ou_annule": 36.8,
+      "pct_annules": 3.7,
+      "pct_grand_retard": 17.2,
+      "retard_p90_min": 83.0,
+      "roulage_median_min": 15.0,
+      "rattrapage_median_min": 5.0,
+      "distance_mediane": 760.0,
+      "nb_destinations": 4,
+      "part_vols_soir_pct": 22.5,
+      "marge_95_pct_retard": 2.0
+    }
+  },
+  "composition_tranche_horaire": {
+    "JetBlue": {
+      "pct_retard_brut": 34.4,
+      "taux_standardise_pct": 37.4,
+      "ecart_points": 3.0,
+      "rang_brut": 1,
+      "rang_standardise": 1,
+      "couverture_pct": 100.0
+    },
+    "Southwest": {
+      "pct_retard_brut": 29.9,
+      "taux_standardise_pct": 31.1,
+      "ecart_points": 1.2,
+      "rang_brut": 2,
+      "rang_standardise": 2,
+      "couverture_pct": 100.0
+    },
+    "Frontier": {
+      "pct_retard_brut": 28.4,
+      "taux_standardise_pct": 28.7,
+      "ecart_points": 0.3,
+      "rang_brut": 3,
+      "rang_standardise": 3,
+      "couverture_pct": 100.0
+    },
+    "Spirit": {
+      "pct_retard_brut": 24.4,
+      "taux_standardise_pct": 25.7,
+      "ecart_points": 1.3,
+      "rang_brut": 4,
+      "rang_standardise": 4,
+      "couverture_pct": 100.0
+    },
+    "SkyWest": {
+      "pct_retard_brut": 19.8,
+      "taux_standardise_pct": 21.3,
+      "ecart_points": 1.5,
+      "rang_brut": 5,
+      "rang_standardise": 5,
+      "couverture_pct": 100.0
+    },
+    "Autres": {
+      "pct_retard_brut": 18.8,
+      "taux_standardise_pct": 16.3,
+      "ecart_points": -2.5,
+      "rang_brut": 6,
+      "rang_standardise": 11,
+      "couverture_pct": 100.0
+    },
+    "Delta": {
+      "pct_retard_brut": 18.1,
+      "taux_standardise_pct": 17.9,
+      "ecart_points": -0.2,
+      "rang_brut": 7,
+      "rang_standardise": 8,
+      "couverture_pct": 100.0
+    },
+    "Envoy": {
+      "pct_retard_brut": 18.0,
+      "taux_standardise_pct": 17.8,
+      "ecart_points": -0.2,
+      "rang_brut": 8,
+      "rang_standardise": 9,
+      "couverture_pct": 100.0
+    },
+    "Comair": {
+      "pct_retard_brut": 18.0,
+      "taux_standardise_pct": 17.1,
+      "ecart_points": -0.9,
+      "rang_brut": 9,
+      "rang_standardise": 10,
+      "couverture_pct": 100.0
+    },
+    "American": {
+      "pct_retard_brut": 17.4,
+      "taux_standardise_pct": 20.9,
+      "ecart_points": 3.5,
+      "rang_brut": 10,
+      "rang_standardise": 6,
+      "couverture_pct": 100.0
+    },
+    "United": {
+      "pct_retard_brut": 17.4,
+      "taux_standardise_pct": 20.6,
+      "ecart_points": 3.2,
+      "rang_brut": 11,
+      "rang_standardise": 7,
+      "couverture_pct": 100.0
+    },
+    "Republic": {
+      "pct_retard_brut": 14.3,
+      "taux_standardise_pct": 15.0,
+      "ecart_points": 0.7,
+      "rang_brut": 12,
+      "rang_standardise": 12,
+      "couverture_pct": 100.0
+    },
+    "Mesa": {
+      "pct_retard_brut": 12.9,
+      "taux_standardise_pct": 13.1,
+      "ecart_points": 0.2,
+      "rang_brut": 13,
+      "rang_standardise": 13,
+      "couverture_pct": 100.0
+    },
+    "Endeavor (Delta Connection)": {
+      "pct_retard_brut": 9.7,
+      "taux_standardise_pct": 9.6,
+      "ecart_points": -0.2,
+      "rang_brut": 14,
+      "rang_standardise": 14,
+      "couverture_pct": 100.0
+    }
+  },
+  "composition_mois": {
+    "JetBlue": {
+      "pct_retard_brut": 34.4,
+      "taux_standardise_pct": 35.1,
+      "ecart_points": 0.7,
+      "rang_brut": 1,
+      "rang_standardise": 1,
+      "couverture_pct": 100.0
+    },
+    "Southwest": {
+      "pct_retard_brut": 29.9,
+      "taux_standardise_pct": 29.9,
+      "ecart_points": 0.0,
+      "rang_brut": 2,
+      "rang_standardise": 2,
+      "couverture_pct": 100.0
+    },
+    "Frontier": {
+      "pct_retard_brut": 28.4,
+      "taux_standardise_pct": 28.3,
+      "ecart_points": -0.1,
+      "rang_brut": 3,
+      "rang_standardise": 3,
+      "couverture_pct": 100.0
+    },
+    "Spirit": {
+      "pct_retard_brut": 24.4,
+      "taux_standardise_pct": 24.6,
+      "ecart_points": 0.2,
+      "rang_brut": 4,
+      "rang_standardise": 4,
+      "couverture_pct": 100.0
+    },
+    "SkyWest": {
+      "pct_retard_brut": 19.8,
+      "taux_standardise_pct": 15.4,
+      "ecart_points": -4.4,
+      "rang_brut": 5,
+      "rang_standardise": 11,
+      "couverture_pct": 100.0
+    },
+    "Autres": {
+      "pct_retard_brut": 18.8,
+      "taux_standardise_pct": 18.9,
+      "ecart_points": 0.1,
+      "rang_brut": 6,
+      "rang_standardise": 5,
+      "couverture_pct": 100.0
+    },
+    "Delta": {
+      "pct_retard_brut": 18.1,
+      "taux_standardise_pct": 18.0,
+      "ecart_points": -0.1,
+      "rang_brut": 7,
+      "rang_standardise": 7,
+      "couverture_pct": 100.0
+    },
+    "Envoy": {
+      "pct_retard_brut": 18.0,
+      "taux_standardise_pct": 17.6,
+      "ecart_points": -0.5,
+      "rang_brut": 8,
+      "rang_standardise": 9,
+      "couverture_pct": 100.0
+    },
+    "Comair": {
+      "pct_retard_brut": 18.0,
+      "taux_standardise_pct": 17.6,
+      "ecart_points": -0.4,
+      "rang_brut": 9,
+      "rang_standardise": 8,
+      "couverture_pct": 100.0
+    },
+    "American": {
+      "pct_retard_brut": 17.4,
+      "taux_standardise_pct": 18.1,
+      "ecart_points": 0.6,
+      "rang_brut": 10,
+      "rang_standardise": 6,
+      "couverture_pct": 100.0
+    },
+    "United": {
+      "pct_retard_brut": 17.4,
+      "taux_standardise_pct": 17.2,
+      "ecart_points": -0.2,
+      "rang_brut": 11,
+      "rang_standardise": 10,
+      "couverture_pct": 100.0
+    },
+    "Republic": {
+      "pct_retard_brut": 14.3,
+      "taux_standardise_pct": 14.4,
+      "ecart_points": 0.1,
+      "rang_brut": 12,
+      "rang_standardise": 12,
+      "couverture_pct": 100.0
+    },
+    "Mesa": {
+      "pct_retard_brut": 12.9,
+      "taux_standardise_pct": 12.6,
+      "ecart_points": -0.3,
+      "rang_brut": 13,
+      "rang_standardise": 13,
+      "couverture_pct": 100.0
+    },
+    "Endeavor (Delta Connection)": {
+      "pct_retard_brut": 9.7,
+      "taux_standardise_pct": 10.3,
+      "ecart_points": 0.6,
+      "rang_brut": 14,
+      "rang_standardise": 14,
+      "couverture_pct": 100.0
+    }
+  },
+  "correlation_roulage_retard": {
+    "globale": 0.002,
+    "par_compagnie": {
+      "American": {
+        "correlation": 0.049,
+        "n": 7417.0
+      },
+      "Autres": {
+        "correlation": 0.001,
+        "n": 867.0
+      },
+      "Comair": {
+        "correlation": 0.017,
+        "n": 1186.0
+      },
+      "Delta": {
+        "correlation": 0.038,
+        "n": 202859.0
+      },
+      "Endeavor (Delta Connection)": {
+        "correlation": 0.075,
+        "n": 39759.0
+      },
+      "Envoy": {
+        "correlation": 0.067,
+        "n": 1226.0
+      },
+      "Frontier": {
+        "correlation": 0.047,
+        "n": 6598.0
+      },
+      "JetBlue": {
+        "correlation": 0.037,
+        "n": 2221.0
+      },
+      "Mesa": {
+        "correlation": 0.078,
+        "n": 1710.0
+      },
+      "Republic": {
+        "correlation": 0.091,
+        "n": 6600.0
+      },
+      "SkyWest": {
+        "correlation": 0.072,
+        "n": 1910.0
+      },
+      "Southwest": {
+        "correlation": -0.035,
+        "n": 30291.0
+      },
+      "Spirit": {
+        "correlation": 0.068,
+        "n": 8747.0
+      },
+      "United": {
+        "correlation": 0.118,
+        "n": 3453.0
+      }
+    }
+  },
+  "correlations": {
+    "depart_arrivee_pearson": 0.9652,
+    "depart_arrivee_spearman": 0.6576,
+    "distance_rattrapage_spearman": 0.1573,
+    "matrice_spearman": {
+      "Retard départ": {
+        "Retard départ": 1.0,
+        "Retard arrivée": 0.658,
+        "Roulage départ": -0.017,
+        "Roulage arrivée": 0.063,
+        "Distance": 0.133,
+        "Rattrapé en vol": 0.047
+      },
+      "Retard arrivée": {
+        "Retard départ": 0.658,
+        "Retard arrivée": 1.0,
+        "Roulage départ": 0.3,
+        "Roulage arrivée": 0.148,
+        "Distance": -0.024,
+        "Rattrapé en vol": -0.595
+      },
+      "Roulage départ": {
+        "Retard départ": -0.017,
+        "Retard arrivée": 0.3,
+        "Roulage départ": 1.0,
+        "Roulage arrivée": 0.076,
+        "Distance": 0.033,
+        "Rattrapé en vol": -0.48
+      },
+      "Roulage arrivée": {
+        "Retard départ": 0.063,
+        "Retard arrivée": 0.148,
+        "Roulage départ": 0.076,
+        "Roulage arrivée": 1.0,
+        "Distance": 0.287,
+        "Rattrapé en vol": -0.17
+      },
+      "Distance": {
+        "Retard départ": 0.133,
+        "Retard arrivée": -0.024,
+        "Roulage départ": 0.033,
+        "Roulage arrivée": 0.287,
+        "Distance": 1.0,
+        "Rattrapé en vol": 0.157
+      },
+      "Rattrapé en vol": {
+        "Retard départ": 0.047,
+        "Retard arrivée": -0.595,
+        "Roulage départ": -0.48,
+        "Roulage arrivée": -0.17,
+        "Distance": 0.157,
+        "Rattrapé en vol": 1.0
+      }
+    }
+  },
+  "retard_par_saison_pct": {
+    "American": {
+      "Automne": 15.2,
+      "Hiver": 12.0,
+      "Printemps": 17.1,
+      "Été": 26.9
+    },
+    "Autres": {
+      "Automne": 15.3,
+      "Hiver": 20.4,
+      "Printemps": 24.5,
+      "Été": 16.7
+    },
+    "Comair": {
+      "Automne": 11.7,
+      "Hiver": 16.2,
+      "Printemps": 19.7,
+      "Été": 22.9
+    },
+    "Delta": {
+      "Automne": 12.0,
+      "Hiver": 15.8,
+      "Printemps": 20.9,
+      "Été": 23.1
+    },
+    "Endeavor (Delta Connection)": {
+      "Automne": 5.8,
+      "Hiver": 9.1,
+      "Printemps": 11.5,
+      "Été": 13.8
+    },
+    "Envoy": {
+      "Automne": 14.7,
+      "Hiver": 14.2,
+      "Printemps": 15.3,
+      "Été": 27.0
+    },
+    "Frontier": {
+      "Automne": 17.8,
+      "Hiver": 25.2,
+      "Printemps": 38.1,
+      "Été": 32.9
+    },
+    "JetBlue": {
+      "Automne": 29.4,
+      "Hiver": 37.9,
+      "Printemps": 33.3,
+      "Été": 38.0
+    },
+    "Mesa": {
+      "Automne": 13.4,
+      "Hiver": 16.7,
+      "Printemps": 9.7,
+      "Été": 11.0
+    },
+    "Republic": {
+      "Automne": 8.3,
+      "Hiver": 13.0,
+      "Printemps": 17.5,
+      "Été": 18.7
+    },
+    "SkyWest": {
+      "Automne": 11.8,
+      "Hiver": 16.6,
+      "Printemps": 14.3,
+      "Été": 25.7
+    },
+    "Southwest": {
+      "Automne": 27.2,
+      "Hiver": 25.0,
+      "Printemps": 30.8,
+      "Été": 36.1
+    },
+    "Spirit": {
+      "Automne": 20.2,
+      "Hiver": 26.5,
+      "Printemps": 28.3,
+      "Été": 23.2
+    },
+    "United": {
+      "Automne": 11.7,
+      "Hiver": 13.7,
+      "Printemps": 21.9,
+      "Été": 20.5
+    }
+  },
+  "rang_par_saison": {
+    "American": {
+      "Automne": 6.0,
+      "Hiver": 13.0,
+      "Printemps": 10.0,
+      "Été": 5.0
+    },
+    "Autres": {
+      "Automne": 5.0,
+      "Hiver": 5.0,
+      "Printemps": 5.0,
+      "Été": 12.0
+    },
+    "Comair": {
+      "Automne": 12.0,
+      "Hiver": 8.0,
+      "Printemps": 8.0,
+      "Été": 9.0
+    },
+    "Delta": {
+      "Automne": 9.0,
+      "Hiver": 9.0,
+      "Printemps": 7.0,
+      "Été": 8.0
+    },
+    "Endeavor (Delta Connection)": {
+      "Automne": 14.0,
+      "Hiver": 14.0,
+      "Printemps": 13.0,
+      "Été": 13.0
+    },
+    "Envoy": {
+      "Automne": 7.0,
+      "Hiver": 10.0,
+      "Printemps": 11.0,
+      "Été": 4.0
+    },
+    "Frontier": {
+      "Automne": 4.0,
+      "Hiver": 3.0,
+      "Printemps": 1.0,
+      "Été": 3.0
+    },
+    "JetBlue": {
+      "Automne": 1.0,
+      "Hiver": 1.0,
+      "Printemps": 2.0,
+      "Été": 1.0
+    },
+    "Mesa": {
+      "Automne": 8.0,
+      "Hiver": 6.0,
+      "Printemps": 14.0,
+      "Été": 14.0
+    },
+    "Republic": {
+      "Automne": 13.0,
+      "Hiver": 12.0,
+      "Printemps": 9.0,
+      "Été": 11.0
+    },
+    "SkyWest": {
+      "Automne": 10.0,
+      "Hiver": 7.0,
+      "Printemps": 12.0,
+      "Été": 6.0
+    },
+    "Southwest": {
+      "Automne": 2.0,
+      "Hiver": 4.0,
+      "Printemps": 3.0,
+      "Été": 2.0
+    },
+    "Spirit": {
+      "Automne": 3.0,
+      "Hiver": 2.0,
+      "Printemps": 4.0,
+      "Été": 7.0
+    },
+    "United": {
+      "Automne": 11.0,
+      "Hiver": 11.0,
+      "Printemps": 6.0,
+      "Été": 10.0
+    }
+  },
+  "domino_par_compagnie": {
+    "Delta": {
+      "pct_si_precedent_a_l_heure": 16.5,
+      "pct_si_precedent_en_retard": 40.0,
+      "n_vol_precedent_en_retard": 13712.0,
+      "ecart_points": 23.5
+    },
+    "Endeavor (Delta Connection)": {
+      "pct_si_precedent_a_l_heure": 8.7,
+      "pct_si_precedent_en_retard": 29.2,
+      "n_vol_precedent_en_retard": 2108.0,
+      "ecart_points": 20.5
+    },
+    "Frontier": {
+      "pct_si_precedent_a_l_heure": 26.5,
+      "pct_si_precedent_en_retard": 66.7,
+      "n_vol_precedent_en_retard": 457.0,
+      "ecart_points": 40.3
+    },
+    "Spirit": {
+      "pct_si_precedent_a_l_heure": 20.7,
+      "pct_si_precedent_en_retard": 57.5,
+      "n_vol_precedent_en_retard": 355.0,
+      "ecart_points": 36.7
+    },
+    "Southwest": {
+      "pct_si_precedent_a_l_heure": 33.4,
+      "pct_si_precedent_en_retard": 67.6,
+      "n_vol_precedent_en_retard": 315.0,
+      "ecart_points": 34.2
+    },
+    "Republic": {
+      "pct_si_precedent_a_l_heure": 10.0,
+      "pct_si_precedent_en_retard": 41.0,
+      "n_vol_precedent_en_retard": 117.0,
+      "ecart_points": 31.1
+    },
+    "SkyWest": {
+      "pct_si_precedent_a_l_heure": 16.7,
+      "pct_si_precedent_en_retard": 69.1,
+      "n_vol_precedent_en_retard": 97.0,
+      "ecart_points": 52.3
+    },
+    "JetBlue": {
+      "pct_si_precedent_a_l_heure": 33.3,
+      "pct_si_precedent_en_retard": 78.8,
+      "n_vol_precedent_en_retard": 33.0,
+      "ecart_points": 45.5
+    }
+  },
+  "taille_echantillon": {
+    "N": 319335,
+    "p": 0.1856,
+    "z": 1.96,
+    "n_pour_1_point": 5703,
+    "n_pour_1_point_p_0_5": 9324,
+    "n_pour_2_points": 1445,
+    "n_retenu": 5000,
+    "fraction_pct": 1.57,
+    "marge_n_retenu_points": 1.07,
+    "mesa": {
+      "N_h": 1759,
+      "p_h": 0.129,
+      "n_h_pour_5_points": 157,
+      "n_h_si_aleatoire_5000": 28
+    }
+  },
+  "echantillonnage": {
+    "conclusions": {
+      "C1": "Bas coût > Majeures > Régionales (% de retard)",
+      "C2": "Southwest plus en retard que Delta",
+      "C3": "Endeavor est la compagnie la plus ponctuelle",
+      "C4": "American paraît plus ponctuelle que Delta, mais plus en retard à tranche horaire égale",
+      "C5": "American < Delta en retard seul, mais > Delta en « retardé ou annulé »",
+      "C6": "Effet domino : écart de plus de 15 points",
+      "C7": "Roulage-retard : corrélation globale ≈ 0 mais positive dans la plupart des compagnies",
+      "C8": "Le retard est plus fréquent le soir que le matin"
+    },
+    "synthese_5000": {
+      "Aléatoire simple": {
+        "E1_ks_retard": 0.009,
+        "E1_erreur_p50_retard": 0.0,
+        "E1_erreur_p90_retard": 1.02,
+        "E1_erreur_p99_retard": 8.49,
+        "E1_ks_roulage": 0.01,
+        "E1_erreur_p50_roulage": 0.0,
+        "E1_erreur_p90_roulage": 0.14,
+        "E1_erreur_p99_roulage": 1.39,
+        "E1_ks_rattrapage": 0.01,
+        "E1_erreur_p50_rattrapage": 0.29,
+        "E1_erreur_p90_rattrapage": 0.01,
+        "E1_erreur_p99_rattrapage": 0.53,
+        "E2_ecart_max_parts_compagnies": 0.66,
+        "E2_ecart_max_classes_retard": 0.728,
+        "E2_erreur_pct_grand_retard": 0.263,
+        "E2_nb_compagnies_moins_30_vols": 4.19,
+        "E3_ecart_moyen_profil_horaire": 2.229,
+        "E3_erreur_ecart_domino": 2.453,
+        "E3_erreur_corr_depart_arrivee": 0.006,
+        "E4_erreur_moyenne_compagnie_saison": 3.316,
+        "E4_pct_cases_moins_30_vols": 66.214,
+        "E4_corr_globale_roulage_retard": 0.003,
+        "E4_erreur_corr_par_compagnie": 0.074,
+        "E5_ecart_moyen_serie_mensuelle": 1.475,
+        "E5_nb_jours_couverts": 365.0,
+        "E6_nb_compagnies_comparables": 9.63,
+        "E6_spearman_classement_compagnies": 0.856,
+        "E6_erreur_max_compagnie": 14.907,
+        "E6_erreur_pct_retard_global": 0.417,
+        "pct_tirages_C1": 100.0,
+        "pct_tirages_C2": 100.0,
+        "pct_tirages_C3": 0.0,
+        "pct_tirages_C4": 31.0,
+        "pct_tirages_C5": 13.0,
+        "pct_tirages_C6": 100.0,
+        "pct_tirages_C7": 63.0,
+        "pct_tirages_C8": 100.0,
+        "pct_conclusions_conservees": 63.375
+      },
+      "Par grappes (jours)": {
+        "E1_ks_retard": 0.046,
+        "E1_erreur_p50_retard": 0.02,
+        "E1_erreur_p90_retard": 8.66,
+        "E1_erreur_p99_retard": 25.33,
+        "E1_ks_roulage": 0.041,
+        "E1_erreur_p50_roulage": 0.22,
+        "E1_erreur_p90_roulage": 0.92,
+        "E1_erreur_p99_roulage": 6.44,
+        "E1_ks_rattrapage": 0.035,
+        "E1_erreur_p50_rattrapage": 0.56,
+        "E1_erreur_p90_rattrapage": 0.56,
+        "E1_erreur_p99_rattrapage": 1.62,
+        "E2_ecart_max_parts_compagnies": 0.92,
+        "E2_ecart_max_classes_retard": 4.527,
+        "E2_erreur_pct_grand_retard": 1.971,
+        "E2_nb_compagnies_moins_30_vols": 4.22,
+        "E3_ecart_moyen_profil_horaire": 4.507,
+        "E3_erreur_ecart_domino": 5.539,
+        "E3_erreur_corr_depart_arrivee": 0.012,
+        "E4_erreur_moyenne_compagnie_saison": 6.888,
+        "E4_pct_cases_moins_30_vols": 68.429,
+        "E4_corr_globale_roulage_retard": 0.001,
+        "E4_erreur_corr_par_compagnie": 0.083,
+        "E5_ecart_moyen_serie_mensuelle": 6.308,
+        "E5_nb_jours_couverts": 6.0,
+        "E6_nb_compagnies_comparables": 9.62,
+        "E6_spearman_classement_compagnies": 0.809,
+        "E6_erreur_max_compagnie": 16.027,
+        "E6_erreur_pct_retard_global": 3.548,
+        "pct_tirages_C1": 100.0,
+        "pct_tirages_C2": 100.0,
+        "pct_tirages_C3": 0.0,
+        "pct_tirages_C4": 28.0,
+        "pct_tirages_C5": 12.0,
+        "pct_tirages_C6": 92.0,
+        "pct_tirages_C7": 52.0,
+        "pct_tirages_C8": 100.0,
+        "pct_conclusions_conservees": 60.5
+      },
+      "Répété (bootstrap)": {
+        "E1_ks_retard": 0.009,
+        "E1_erreur_p50_retard": 0.0,
+        "E1_erreur_p90_retard": 1.15,
+        "E1_erreur_p99_retard": 7.83,
+        "E1_ks_roulage": 0.01,
+        "E1_erreur_p50_roulage": 0.0,
+        "E1_erreur_p90_roulage": 0.2,
+        "E1_erreur_p99_roulage": 1.16,
+        "E1_ks_rattrapage": 0.01,
+        "E1_erreur_p50_rattrapage": 0.27,
+        "E1_erreur_p90_rattrapage": 0.02,
+        "E1_erreur_p99_rattrapage": 0.42,
+        "E2_ecart_max_parts_compagnies": 0.723,
+        "E2_ecart_max_classes_retard": 0.732,
+        "E2_erreur_pct_grand_retard": 0.271,
+        "E2_nb_compagnies_moins_30_vols": 4.23,
+        "E3_ecart_moyen_profil_horaire": 2.189,
+        "E3_erreur_ecart_domino": 2.671,
+        "E3_erreur_corr_depart_arrivee": 0.007,
+        "E4_erreur_moyenne_compagnie_saison": 3.392,
+        "E4_pct_cases_moins_30_vols": 66.107,
+        "E4_corr_globale_roulage_retard": 0.002,
+        "E4_erreur_corr_par_compagnie": 0.076,
+        "E5_ecart_moyen_serie_mensuelle": 1.508,
+        "E5_nb_jours_couverts": 365.0,
+        "E6_nb_compagnies_comparables": 9.65,
+        "E6_spearman_classement_compagnies": 0.863,
+        "E6_erreur_max_compagnie": 14.529,
+        "E6_erreur_pct_retard_global": 0.479,
+        "pct_tirages_C1": 100.0,
+        "pct_tirages_C2": 100.0,
+        "pct_tirages_C3": 0.0,
+        "pct_tirages_C4": 37.0,
+        "pct_tirages_C5": 14.0,
+        "pct_tirages_C6": 100.0,
+        "pct_tirages_C7": 71.0,
+        "pct_tirages_C8": 100.0,
+        "pct_conclusions_conservees": 65.25
+      },
+      "Stratifié par compagnie": {
+        "E1_ks_retard": 0.025,
+        "E1_erreur_p50_retard": 0.0,
+        "E1_erreur_p90_retard": 8.8,
+        "E1_erreur_p99_retard": 72.76,
+        "E1_ks_roulage": 0.145,
+        "E1_erreur_p50_roulage": 1.33,
+        "E1_erreur_p90_roulage": 2.05,
+        "E1_erreur_p99_roulage": 5.53,
+        "E1_ks_rattrapage": 0.082,
+        "E1_erreur_p50_rattrapage": 0.37,
+        "E1_erreur_p90_rattrapage": 2.96,
+        "E1_erreur_p99_rattrapage": 3.68,
+        "E2_ecart_max_parts_compagnies": 57.161,
+        "E2_ecart_max_classes_retard": 2.583,
+        "E2_erreur_pct_grand_retard": 2.244,
+        "E2_nb_compagnies_moins_30_vols": 0.0,
+        "E3_ecart_moyen_profil_horaire": 3.794,
+        "E3_erreur_ecart_domino": 10.298,
+        "E3_erreur_corr_depart_arrivee": 0.007,
+        "E4_erreur_moyenne_compagnie_saison": 3.075,
+        "E4_pct_cases_moins_30_vols": 0.054,
+        "E4_corr_globale_roulage_retard": 0.017,
+        "E4_erreur_corr_par_compagnie": 0.039,
+        "E5_ecart_moyen_serie_mensuelle": 2.466,
+        "E5_nb_jours_couverts": 365.0,
+        "E6_nb_compagnies_comparables": 14.0,
+        "E6_spearman_classement_compagnies": 0.905,
+        "E6_erreur_max_compagnie": 4.089,
+        "E6_erreur_pct_retard_global": 1.547,
+        "pct_tirages_C1": 95.0,
+        "pct_tirages_C2": 100.0,
+        "pct_tirages_C3": 89.0,
+        "pct_tirages_C4": 38.0,
+        "pct_tirages_C5": 10.0,
+        "pct_tirages_C6": 100.0,
+        "pct_tirages_C7": 82.0,
+        "pct_tirages_C8": 100.0,
+        "pct_conclusions_conservees": 76.75
+      },
+      "Stratifié par compagnie (repondéré)": {
+        "E1_ks_retard": 0.023,
+        "E1_erreur_p50_retard": 0.0,
+        "E1_erreur_p90_retard": 2.88,
+        "E1_erreur_p99_retard": 20.92,
+        "E1_ks_roulage": 0.025,
+        "E1_erreur_p50_roulage": 0.01,
+        "E1_erreur_p90_roulage": 0.49,
+        "E1_erreur_p99_roulage": 3.02,
+        "E1_ks_rattrapage": 0.028,
+        "E1_erreur_p50_rattrapage": 0.4,
+        "E1_erreur_p90_rattrapage": 0.45,
+        "E1_erreur_p99_rattrapage": 1.36,
+        "E2_ecart_max_parts_compagnies": 0.0,
+        "E2_ecart_max_classes_retard": 1.819,
+        "E2_erreur_pct_grand_retard": 0.799,
+        "E2_nb_compagnies_moins_30_vols": 0.0,
+        "E3_ecart_moyen_profil_horaire": 4.854,
+        "E3_erreur_ecart_domino": 6.2,
+        "E3_erreur_corr_depart_arrivee": 0.011,
+        "E4_erreur_moyenne_compagnie_saison": 3.075,
+        "E4_pct_cases_moins_30_vols": 0.054,
+        "E4_corr_globale_roulage_retard": 0.005,
+        "E4_erreur_corr_par_compagnie": 0.039,
+        "E5_ecart_moyen_serie_mensuelle": 3.667,
+        "E5_nb_jours_couverts": 365.0,
+        "E6_nb_compagnies_comparables": 14.0,
+        "E6_spearman_classement_compagnies": 0.905,
+        "E6_erreur_max_compagnie": 4.089,
+        "E6_erreur_pct_retard_global": 1.068,
+        "pct_tirages_C1": 100.0,
+        "pct_tirages_C2": 100.0,
+        "pct_tirages_C3": 89.0,
+        "pct_tirages_C4": 38.0,
+        "pct_tirages_C5": 10.0,
+        "pct_tirages_C6": 92.0,
+        "pct_tirages_C7": 54.0,
+        "pct_tirages_C8": 100.0,
+        "pct_conclusions_conservees": 72.875
+      },
+      "Systématique": {
+        "E1_ks_retard": 0.009,
+        "E1_erreur_p50_retard": 0.0,
+        "E1_erreur_p90_retard": 1.18,
+        "E1_erreur_p99_retard": 7.37,
+        "E1_ks_roulage": 0.01,
+        "E1_erreur_p50_roulage": 0.0,
+        "E1_erreur_p90_roulage": 0.2,
+        "E1_erreur_p99_roulage": 1.35,
+        "E1_ks_rattrapage": 0.011,
+        "E1_erreur_p50_rattrapage": 0.3,
+        "E1_erreur_p90_rattrapage": 0.02,
+        "E1_erreur_p99_rattrapage": 0.43,
+        "E2_ecart_max_parts_compagnies": 0.72,
+        "E2_ecart_max_classes_retard": 0.742,
+        "E2_erreur_pct_grand_retard": 0.314,
+        "E2_nb_compagnies_moins_30_vols": 4.35,
+        "E3_ecart_moyen_profil_horaire": 2.21,
+        "E3_erreur_ecart_domino": 2.359,
+        "E3_erreur_corr_depart_arrivee": 0.006,
+        "E4_erreur_moyenne_compagnie_saison": 3.227,
+        "E4_pct_cases_moins_30_vols": 66.196,
+        "E4_corr_globale_roulage_retard": 0.001,
+        "E4_erreur_corr_par_compagnie": 0.074,
+        "E5_ecart_moyen_serie_mensuelle": 1.544,
+        "E5_nb_jours_couverts": 365.0,
+        "E6_nb_compagnies_comparables": 9.58,
+        "E6_spearman_classement_compagnies": 0.87,
+        "E6_erreur_max_compagnie": 13.57,
+        "E6_erreur_pct_retard_global": 0.446,
+        "pct_tirages_C1": 100.0,
+        "pct_tirages_C2": 100.0,
+        "pct_tirages_C3": 0.0,
+        "pct_tirages_C4": 29.0,
+        "pct_tirages_C5": 15.0,
+        "pct_tirages_C6": 100.0,
+        "pct_tirages_C7": 75.0,
+        "pct_tirages_C8": 100.0,
+        "pct_conclusions_conservees": 64.875
+      },
+      "Temporel (par jour)": {
+        "E1_ks_retard": 0.009,
+        "E1_erreur_p50_retard": 0.0,
+        "E1_erreur_p90_retard": 1.18,
+        "E1_erreur_p99_retard": 7.66,
+        "E1_ks_roulage": 0.01,
+        "E1_erreur_p50_roulage": 0.0,
+        "E1_erreur_p90_roulage": 0.12,
+        "E1_erreur_p99_roulage": 1.28,
+        "E1_ks_rattrapage": 0.01,
+        "E1_erreur_p50_rattrapage": 0.25,
+        "E1_erreur_p90_rattrapage": 0.01,
+        "E1_erreur_p99_rattrapage": 0.45,
+        "E2_ecart_max_parts_compagnies": 0.747,
+        "E2_ecart_max_classes_retard": 0.752,
+        "E2_erreur_pct_grand_retard": 0.307,
+        "E2_nb_compagnies_moins_30_vols": 4.3,
+        "E3_ecart_moyen_profil_horaire": 2.179,
+        "E3_erreur_ecart_domino": 2.586,
+        "E3_erreur_corr_depart_arrivee": 0.006,
+        "E4_erreur_moyenne_compagnie_saison": 3.28,
+        "E4_pct_cases_moins_30_vols": 66.161,
+        "E4_corr_globale_roulage_retard": 0.001,
+        "E4_erreur_corr_par_compagnie": 0.072,
+        "E5_ecart_moyen_serie_mensuelle": 1.424,
+        "E5_nb_jours_couverts": 365.0,
+        "E6_nb_compagnies_comparables": 9.49,
+        "E6_spearman_classement_compagnies": 0.866,
+        "E6_erreur_max_compagnie": 15.023,
+        "E6_erreur_pct_retard_global": 0.422,
+        "pct_tirages_C1": 100.0,
+        "pct_tirages_C2": 100.0,
+        "pct_tirages_C3": 0.0,
+        "pct_tirages_C4": 25.0,
+        "pct_tirages_C5": 9.0,
+        "pct_tirages_C6": 100.0,
+        "pct_tirages_C7": 73.0,
+        "pct_tirages_C8": 100.0,
+        "pct_conclusions_conservees": 63.375
+      }
+    },
+    "meilleure_methode_par_mesure": {
+      "E1_ks_retard": "Aléatoire simple",
+      "E2_ecart_max_parts_compagnies": "Stratifié par compagnie (repondéré)",
+      "E2_nb_compagnies_moins_30_vols": "Stratifié par compagnie",
+      "E3_erreur_ecart_domino": "Systématique",
+      "E4_erreur_moyenne_compagnie_saison": "Stratifié par compagnie",
+      "E5_ecart_moyen_serie_mensuelle": "Temporel (par jour)",
+      "E6_nb_compagnies_comparables": "Stratifié par compagnie",
+      "E6_erreur_max_compagnie": "Stratifié par compagnie",
+      "E6_spearman_classement_compagnies": "Stratifié par compagnie",
+      "E6_erreur_pct_retard_global": "Aléatoire simple",
+      "pct_conclusions_conservees": "Stratifié par compagnie"
+    },
+    "par_taille": {
+      "Aléatoire simple | naïf | 1000": {
+        "E1_ks_retard": 0.02,
+        "E2_ecart_max_parts_compagnies": 1.426,
+        "E2_nb_compagnies_moins_30_vols": 10.32,
+        "E3_erreur_ecart_domino": 5.427,
+        "E4_erreur_moyenne_compagnie_saison": 3.124,
+        "E5_ecart_moyen_serie_mensuelle": 3.326,
+        "E6_nb_compagnies_comparables": 3.53,
+        "E6_erreur_max_compagnie": 33.703,
+        "E6_spearman_classement_compagnies": 0.922,
+        "E6_erreur_pct_retard_global": 0.984,
+        "pct_conclusions_conservees": 54.5
+      },
+      "Aléatoire simple | naïf | 2000": {
+        "E1_ks_retard": 0.013,
+        "E2_ecart_max_parts_compagnies": 1.135,
+        "E2_nb_compagnies_moins_30_vols": 6.96,
+        "E3_erreur_ecart_domino": 4.055,
+        "E4_erreur_moyenne_compagnie_saison": 3.281,
+        "E5_ecart_moyen_serie_mensuelle": 2.307,
+        "E6_nb_compagnies_comparables": 7.01,
+        "E6_erreur_max_compagnie": 25.117,
+        "E6_spearman_classement_compagnies": 0.841,
+        "E6_erreur_pct_retard_global": 0.541,
+        "pct_conclusions_conservees": 59.25
+      },
+      "Aléatoire simple | naïf | 5000": {
+        "E1_ks_retard": 0.009,
+        "E2_ecart_max_parts_compagnies": 0.66,
+        "E2_nb_compagnies_moins_30_vols": 4.19,
+        "E3_erreur_ecart_domino": 2.453,
+        "E4_erreur_moyenne_compagnie_saison": 3.316,
+        "E5_ecart_moyen_serie_mensuelle": 1.475,
+        "E6_nb_compagnies_comparables": 9.63,
+        "E6_erreur_max_compagnie": 14.907,
+        "E6_spearman_classement_compagnies": 0.856,
+        "E6_erreur_pct_retard_global": 0.417,
+        "pct_conclusions_conservees": 63.375
+      },
+      "Aléatoire simple | naïf | 10000": {
+        "E1_ks_retard": 0.006,
+        "E2_ecart_max_parts_compagnies": 0.551,
+        "E2_nb_compagnies_moins_30_vols": 0.85,
+        "E3_erreur_ecart_domino": 1.618,
+        "E4_erreur_moyenne_compagnie_saison": 3.188,
+        "E5_ecart_moyen_serie_mensuelle": 1.012,
+        "E6_nb_compagnies_comparables": 13.07,
+        "E6_erreur_max_compagnie": 10.386,
+        "E6_spearman_classement_compagnies": 0.83,
+        "E6_erreur_pct_retard_global": 0.303,
+        "pct_conclusions_conservees": 68.25
+      },
+      "Aléatoire simple | naïf | 20000": {
+        "E1_ks_retard": 0.004,
+        "E2_ecart_max_parts_compagnies": 0.35,
+        "E2_nb_compagnies_moins_30_vols": 0.0,
+        "E3_erreur_ecart_domino": 1.122,
+        "E4_erreur_moyenne_compagnie_saison": 2.812,
+        "E5_ecart_moyen_serie_mensuelle": 0.719,
+        "E6_nb_compagnies_comparables": 14.0,
+        "E6_erreur_max_compagnie": 6.889,
+        "E6_spearman_classement_compagnies": 0.856,
+        "E6_erreur_pct_retard_global": 0.197,
+        "pct_conclusions_conservees": 78.875
+      },
+      "Stratifié par compagnie | naïf | 1000": {
+        "E1_ks_retard": 0.031,
+        "E2_ecart_max_parts_compagnies": 57.161,
+        "E2_nb_compagnies_moins_30_vols": 0.0,
+        "E3_erreur_ecart_domino": 12.762,
+        "E4_erreur_moyenne_compagnie_saison": 5.993,
+        "E5_ecart_moyen_serie_mensuelle": 4.254,
+        "E6_nb_compagnies_comparables": 14.0,
+        "E6_erreur_max_compagnie": 9.9,
+        "E6_spearman_classement_compagnies": 0.777,
+        "E6_erreur_pct_retard_global": 1.79,
+        "pct_conclusions_conservees": 58.875
+      },
+      "Stratifié par compagnie | naïf | 2000": {
+        "E1_ks_retard": 0.027,
+        "E2_ecart_max_parts_compagnies": 57.161,
+        "E2_nb_compagnies_moins_30_vols": 0.0,
+        "E3_erreur_ecart_domino": 11.287,
+        "E4_erreur_moyenne_compagnie_saison": 4.97,
+        "E5_ecart_moyen_serie_mensuelle": 3.175,
+        "E6_nb_compagnies_comparables": 14.0,
+        "E6_erreur_max_compagnie": 6.716,
+        "E6_spearman_classement_compagnies": 0.849,
+        "E6_erreur_pct_retard_global": 1.591,
+        "pct_conclusions_conservees": 66.0
+      },
+      "Stratifié par compagnie | naïf | 5000": {
+        "E1_ks_retard": 0.025,
+        "E2_ecart_max_parts_compagnies": 57.161,
+        "E2_nb_compagnies_moins_30_vols": 0.0,
+        "E3_erreur_ecart_domino": 10.298,
+        "E4_erreur_moyenne_compagnie_saison": 3.075,
+        "E5_ecart_moyen_serie_mensuelle": 2.466,
+        "E6_nb_compagnies_comparables": 14.0,
+        "E6_erreur_max_compagnie": 4.089,
+        "E6_spearman_classement_compagnies": 0.905,
+        "E6_erreur_pct_retard_global": 1.547,
+        "pct_conclusions_conservees": 76.75
+      },
+      "Stratifié par compagnie | naïf | 10000": {
+        "E1_ks_retard": 0.023,
+        "E2_ecart_max_parts_compagnies": 57.161,
+        "E2_nb_compagnies_moins_30_vols": 0.0,
+        "E3_erreur_ecart_domino": 10.841,
+        "E4_erreur_moyenne_compagnie_saison": 1.981,
+        "E5_ecart_moyen_serie_mensuelle": 2.176,
+        "E6_nb_compagnies_comparables": 14.0,
+        "E6_erreur_max_compagnie": 2.765,
+        "E6_spearman_classement_compagnies": 0.941,
+        "E6_erreur_pct_retard_global": 1.507,
+        "pct_conclusions_conservees": 81.625
+      },
+      "Stratifié par compagnie | naïf | 20000": {
+        "E1_ks_retard": 0.024,
+        "E2_ecart_max_parts_compagnies": 56.81,
+        "E2_nb_compagnies_moins_30_vols": 0.0,
+        "E3_erreur_ecart_domino": 11.04,
+        "E4_erreur_moyenne_compagnie_saison": 1.057,
+        "E5_ecart_moyen_serie_mensuelle": 2.049,
+        "E6_nb_compagnies_comparables": 14.0,
+        "E6_erreur_max_compagnie": 1.814,
+        "E6_spearman_classement_compagnies": 0.967,
+        "E6_erreur_pct_retard_global": 1.583,
+        "pct_conclusions_conservees": 86.75
+      },
+      "Stratifié par compagnie | repondéré | 1000": {
+        "E1_ks_retard": 0.049,
+        "E2_ecart_max_parts_compagnies": 0.0,
+        "E2_nb_compagnies_moins_30_vols": 0.0,
+        "E3_erreur_ecart_domino": 15.683,
+        "E4_erreur_moyenne_compagnie_saison": 5.993,
+        "E5_ecart_moyen_serie_mensuelle": 8.461,
+        "E6_nb_compagnies_comparables": 14.0,
+        "E6_erreur_max_compagnie": 9.9,
+        "E6_spearman_classement_compagnies": 0.777,
+        "E6_erreur_pct_retard_global": 2.445,
+        "pct_conclusions_conservees": 55.75
+      },
+      "Stratifié par compagnie | repondéré | 2000": {
+        "E1_ks_retard": 0.034,
+        "E2_ecart_max_parts_compagnies": 0.0,
+        "E2_nb_compagnies_moins_30_vols": 0.0,
+        "E3_erreur_ecart_domino": 10.675,
+        "E4_erreur_moyenne_compagnie_saison": 4.97,
+        "E5_ecart_moyen_serie_mensuelle": 5.911,
+        "E6_nb_compagnies_comparables": 14.0,
+        "E6_erreur_max_compagnie": 6.716,
+        "E6_spearman_classement_compagnies": 0.849,
+        "E6_erreur_pct_retard_global": 1.679,
+        "pct_conclusions_conservees": 63.125
+      },
+      "Stratifié par compagnie | repondéré | 5000": {
+        "E1_ks_retard": 0.023,
+        "E2_ecart_max_parts_compagnies": 0.0,
+        "E2_nb_compagnies_moins_30_vols": 0.0,
+        "E3_erreur_ecart_domino": 6.2,
+        "E4_erreur_moyenne_compagnie_saison": 3.075,
+        "E5_ecart_moyen_serie_mensuelle": 3.667,
+        "E6_nb_compagnies_comparables": 14.0,
+        "E6_erreur_max_compagnie": 4.089,
+        "E6_spearman_classement_compagnies": 0.905,
+        "E6_erreur_pct_retard_global": 1.068,
+        "pct_conclusions_conservees": 72.875
+      },
+      "Stratifié par compagnie | repondéré | 10000": {
+        "E1_ks_retard": 0.015,
+        "E2_ecart_max_parts_compagnies": 0.0,
+        "E2_nb_compagnies_moins_30_vols": 0.0,
+        "E3_erreur_ecart_domino": 4.858,
+        "E4_erreur_moyenne_compagnie_saison": 1.981,
+        "E5_ecart_moyen_serie_mensuelle": 2.547,
+        "E6_nb_compagnies_comparables": 14.0,
+        "E6_erreur_max_compagnie": 2.765,
+        "E6_spearman_classement_compagnies": 0.941,
+        "E6_erreur_pct_retard_global": 0.722,
+        "pct_conclusions_conservees": 78.75
+      },
+      "Stratifié par compagnie | repondéré | 20000": {
+        "E1_ks_retard": 0.011,
+        "E2_ecart_max_parts_compagnies": 0.0,
+        "E2_nb_compagnies_moins_30_vols": 0.0,
+        "E3_erreur_ecart_domino": 3.035,
+        "E4_erreur_moyenne_compagnie_saison": 1.057,
+        "E5_ecart_moyen_serie_mensuelle": 1.804,
+        "E6_nb_compagnies_comparables": 14.0,
+        "E6_erreur_max_compagnie": 1.814,
+        "E6_spearman_classement_compagnies": 0.967,
+        "E6_erreur_pct_retard_global": 0.505,
+        "pct_conclusions_conservees": 84.75
+      },
+      "Temporel (par jour) | naïf | 1000": {
+        "E1_ks_retard": 0.02,
+        "E2_ecart_max_parts_compagnies": 1.588,
+        "E2_nb_compagnies_moins_30_vols": 10.24,
+        "E3_erreur_ecart_domino": 6.158,
+        "E4_erreur_moyenne_compagnie_saison": 3.168,
+        "E5_ecart_moyen_serie_mensuelle": 3.314,
+        "E6_nb_compagnies_comparables": 3.69,
+        "E6_erreur_max_compagnie": 34.523,
+        "E6_spearman_classement_compagnies": 0.907,
+        "E6_erreur_pct_retard_global": 0.997,
+        "pct_conclusions_conservees": 55.25
+      },
+      "Temporel (par jour) | naïf | 2000": {
+        "E1_ks_retard": 0.014,
+        "E2_ecart_max_parts_compagnies": 1.221,
+        "E2_nb_compagnies_moins_30_vols": 6.95,
+        "E3_erreur_ecart_domino": 4.442,
+        "E4_erreur_moyenne_compagnie_saison": 3.5,
+        "E5_ecart_moyen_serie_mensuelle": 2.338,
+        "E6_nb_compagnies_comparables": 7.01,
+        "E6_erreur_max_compagnie": 24.188,
+        "E6_spearman_classement_compagnies": 0.809,
+        "E6_erreur_pct_retard_global": 0.732,
+        "pct_conclusions_conservees": 59.125
+      },
+      "Temporel (par jour) | naïf | 5000": {
+        "E1_ks_retard": 0.009,
+        "E2_ecart_max_parts_compagnies": 0.747,
+        "E2_nb_compagnies_moins_30_vols": 4.3,
+        "E3_erreur_ecart_domino": 2.586,
+        "E4_erreur_moyenne_compagnie_saison": 3.28,
+        "E5_ecart_moyen_serie_mensuelle": 1.424,
+        "E6_nb_compagnies_comparables": 9.49,
+        "E6_erreur_max_compagnie": 15.023,
+        "E6_spearman_classement_compagnies": 0.866,
+        "E6_erreur_pct_retard_global": 0.422,
+        "pct_conclusions_conservees": 63.375
+      },
+      "Temporel (par jour) | naïf | 10000": {
+        "E1_ks_retard": 0.006,
+        "E2_ecart_max_parts_compagnies": 0.517,
+        "E2_nb_compagnies_moins_30_vols": 0.85,
+        "E3_erreur_ecart_domino": 1.848,
+        "E4_erreur_moyenne_compagnie_saison": 3.106,
+        "E5_ecart_moyen_serie_mensuelle": 1.007,
+        "E6_nb_compagnies_comparables": 13.02,
+        "E6_erreur_max_compagnie": 10.222,
+        "E6_spearman_classement_compagnies": 0.829,
+        "E6_erreur_pct_retard_global": 0.336,
+        "pct_conclusions_conservees": 66.5
+      },
+      "Temporel (par jour) | naïf | 20000": {
+        "E1_ks_retard": 0.004,
+        "E2_ecart_max_parts_compagnies": 0.358,
+        "E2_nb_compagnies_moins_30_vols": 0.0,
+        "E3_erreur_ecart_domino": 1.316,
+        "E4_erreur_moyenne_compagnie_saison": 2.742,
+        "E5_ecart_moyen_serie_mensuelle": 0.721,
+        "E6_nb_compagnies_comparables": 14.0,
+        "E6_erreur_max_compagnie": 6.738,
+        "E6_spearman_classement_compagnies": 0.849,
+        "E6_erreur_pct_retard_global": 0.22,
+        "pct_conclusions_conservees": 80.25
+      }
+    },
+    "taille_minimale_robuste": {
+      "Aléatoire simple": {
+        "C1": 1000,
+        "C2": 1000,
+        "C3": null,
+        "C4": null,
+        "C5": null,
+        "C6": 2000,
+        "C7": null,
+        "C8": 1000
+      },
+      "Stratifié par compagnie": {
+        "C1": 5000,
+        "C2": 1000,
+        "C3": 10000,
+        "C4": null,
+        "C5": null,
+        "C6": 1000,
+        "C7": 20000,
+        "C8": 1000
+      },
+      "Stratifié par compagnie (repondéré)": {
+        "C1": 2000,
+        "C2": 1000,
+        "C3": 10000,
+        "C4": null,
+        "C5": null,
+        "C6": 10000,
+        "C7": null,
+        "C8": 1000
+      },
+      "Temporel (par jour)": {
+        "C1": 1000,
+        "C2": 1000,
+        "C3": null,
+        "C4": null,
+        "C5": null,
+        "C6": 2000,
+        "C7": null,
+        "C8": 1000
+      }
+    }
+  },
+  "approfondissement": {
+    "journalier": {
+      "nb_jours": 365,
+      "jour_min": {
+        "date": "2022-02-08",
+        "pct": 3.3
+      },
+      "jour_max": {
+        "date": "2022-03-18",
+        "pct": 64.3
+      },
+      "mediane_jours": 16.1,
+      "ecart_type_jours": 10.2,
+      "ecart_type_mois": 4.9,
+      "nb_mauvais_jours": 16,
+      "pct_retards_dans_10pct_pires_jours": 21.5,
+      "autocorrelation_1_jour": 0.59,
+      "jour_max_annulations": {
+        "date": "2022-01-16",
+        "pct": 33.2
+      },
+      "nb_jours_plus_5pct_annules": 29,
+      "pires_jours": {
+        "2022-03-18": 64.3,
+        "2022-07-21": 63.5,
+        "2021-12-30": 63.1,
+        "2022-03-12": 57.7,
+        "2022-07-19": 51.7,
+        "2022-04-05": 50.2,
+        "2022-05-23": 48.1,
+        "2022-01-02": 46.5
+      }
+    },
+    "jour_semaine": {
+      "Lundi": {
+        "pct_retard": 18.1,
+        "vols_par_jour": 916.1
+      },
+      "Mardi": {
+        "pct_retard": 14.7,
+        "vols_par_jour": 850.4
+      },
+      "Mercredi": {
+        "pct_retard": 15.3,
+        "vols_par_jour": 854.8
+      },
+      "Jeudi": {
+        "pct_retard": 20.2,
+        "vols_par_jour": 916.6
+      },
+      "Vendredi": {
+        "pct_retard": 21.3,
+        "vols_par_jour": 911.5
+      },
+      "Samedi": {
+        "pct_retard": 19.4,
+        "vols_par_jour": 777.9
+      },
+      "Dimanche": {
+        "pct_retard": 20.6,
+        "vols_par_jour": 896.5
+      },
+      "association": {
+        "chi2": 1216.0,
+        "ddl": 6,
+        "p_valeur": 1.3244190979269468e-259,
+        "v_cramer": 0.062,
+        "effectif_attendu_min": 7336.1
+      },
+      "mardi_ou_mercredi_meilleur_chaque_saison": true
+    },
+    "jour_semaine_par_saison": {
+      "Automne": {
+        "Lundi": 13.9,
+        "Mardi": 7.8,
+        "Mercredi": 8.9,
+        "Jeudi": 14.2,
+        "Vendredi": 15.3,
+        "Samedi": 13.1,
+        "Dimanche": 17.4
+      },
+      "Hiver": {
+        "Lundi": 16.0,
+        "Mardi": 12.6,
+        "Mercredi": 11.5,
+        "Jeudi": 17.3,
+        "Vendredi": 20.0,
+        "Samedi": 17.2,
+        "Dimanche": 18.8
+      },
+      "Printemps": {
+        "Lundi": 20.2,
+        "Mardi": 16.9,
+        "Mercredi": 18.0,
+        "Jeudi": 22.7,
+        "Vendredi": 25.8,
+        "Samedi": 22.1,
+        "Dimanche": 22.1
+      },
+      "Été": {
+        "Lundi": 22.5,
+        "Mardi": 21.0,
+        "Mercredi": 22.4,
+        "Jeudi": 26.6,
+        "Vendredi": 24.4,
+        "Samedi": 24.9,
+        "Dimanche": 23.6
+      }
+    },
+    "quantiles_retard_par_compagnie": {
+      "Endeavor (Delta Connection)": {
+        "mediane": 0.0,
+        "q3": 0.0,
+        "p90": 14.0,
+        "type": "Régionale"
+      },
+      "Mesa": {
+        "mediane": 0.0,
+        "q3": 0.0,
+        "p90": 27.0,
+        "type": "Régionale"
+      },
+      "Autres": {
+        "mediane": 0.0,
+        "q3": 10.0,
+        "p90": 27.4,
+        "type": "Majeure"
+      },
+      "Delta": {
+        "mediane": 0.0,
+        "q3": 7.0,
+        "p90": 31.0,
+        "type": "Majeure"
+      },
+      "Republic": {
+        "mediane": 0.0,
+        "q3": 0.0,
+        "p90": 31.0,
+        "type": "Régionale"
+      },
+      "Comair": {
+        "mediane": 0.0,
+        "q3": 5.0,
+        "p90": 32.5,
+        "type": "Régionale"
+      },
+      "Envoy": {
+        "mediane": 0.0,
+        "q3": 6.0,
+        "p90": 34.5,
+        "type": "Régionale"
+      },
+      "American": {
+        "mediane": 0.0,
+        "q3": 4.0,
+        "p90": 38.0,
+        "type": "Majeure"
+      },
+      "United": {
+        "mediane": 0.0,
+        "q3": 5.0,
+        "p90": 38.8,
+        "type": "Majeure"
+      },
+      "Southwest": {
+        "mediane": 3.0,
+        "q3": 19.0,
+        "p90": 46.0,
+        "type": "Bas coût"
+      },
+      "Spirit": {
+        "mediane": 0.0,
+        "q3": 14.0,
+        "p90": 52.0,
+        "type": "Bas coût"
+      },
+      "SkyWest": {
+        "mediane": 0.0,
+        "q3": 5.0,
+        "p90": 62.0,
+        "type": "Régionale"
+      },
+      "Frontier": {
+        "mediane": 0.0,
+        "q3": 20.0,
+        "p90": 68.0,
+        "type": "Bas coût"
+      },
+      "JetBlue": {
+        "mediane": 3.0,
+        "q3": 25.0,
+        "p90": 83.0,
+        "type": "Bas coût"
+      }
+    },
+    "classes_par_type": {
+      "Bas coût": {
+        "À l'heure ou en avance": 45.8,
+        "Petit retard (1-15 min)": 24.6,
+        "Retard moyen (16-45 min)": 16.2,
+        "Grand retard (> 45 min)": 11.0,
+        "Annulé": 2.3
+      },
+      "Majeure": {
+        "À l'heure ou en avance": 61.7,
+        "Petit retard (1-15 min)": 19.9,
+        "Retard moyen (16-45 min)": 10.6,
+        "Grand retard (> 45 min)": 6.5,
+        "Annulé": 1.3
+      },
+      "Régionale": {
+        "À l'heure ou en avance": 79.3,
+        "Petit retard (1-15 min)": 9.0,
+        "Retard moyen (16-45 min)": 5.4,
+        "Grand retard (> 45 min)": 5.3,
+        "Annulé": 1.0
+      }
+    },
+    "liens_bivaries": {
+      "compagnie × retard (min)": {
+        "type": "catégorielle × numérique",
+        "mesure": "epsilon² (Kruskal-Wallis)",
+        "valeur": 0.04,
+        "p_valeur": 0.0
+      },
+      "type × retardé ou annulé": {
+        "type": "catégorielle × catégorielle",
+        "mesure": "V de Cramér",
+        "valeur": 0.133,
+        "p_valeur": 0.0
+      },
+      "tranche horaire × en retard": {
+        "type": "catégorielle × catégorielle",
+        "mesure": "V de Cramér",
+        "valeur": 0.136,
+        "p_valeur": 0.0
+      },
+      "jour de la semaine × en retard": {
+        "type": "catégorielle × catégorielle",
+        "mesure": "V de Cramér",
+        "valeur": 0.062,
+        "p_valeur": 1.3244190979269468e-259
+      },
+      "saison × en retard": {
+        "type": "catégorielle × catégorielle",
+        "mesure": "V de Cramér",
+        "valeur": 0.107,
+        "p_valeur": 0.0
+      },
+      "compagnie × classe de retard": {
+        "type": "catégorielle × catégorielle",
+        "mesure": "V de Cramér",
+        "valeur": 0.112,
+        "p_valeur": 0.0
+      },
+      "retard départ × retard arrivée": {
+        "type": "numérique × numérique",
+        "mesure": "rho de Spearman",
+        "valeur": 0.658,
+        "p_valeur": 0.0
+      },
+      "heure de départ × retard (min)": {
+        "type": "numérique × numérique",
+        "mesure": "rho de Spearman",
+        "valeur": 0.143,
+        "p_valeur": 0.0
+      },
+      "distance × retard (min)": {
+        "type": "numérique × numérique",
+        "mesure": "rho de Spearman",
+        "valeur": 0.103,
+        "p_valeur": 0.0
+      },
+      "distance × minutes rattrapées": {
+        "type": "numérique × numérique",
+        "mesure": "rho de Spearman",
+        "valeur": 0.157,
+        "p_valeur": 0.0
+      }
+    },
+    "paires_compagnies": {
+      "nb_paires": 91,
+      "seuil_bonferroni": 0.0005494505494505495,
+      "nb_non_distinctes": 28,
+      "non_distinctes": [
+        {
+          "compagnie_a": "American",
+          "compagnie_b": "Autres",
+          "pct_a": 19.5,
+          "pct_b": 20.9
+        },
+        {
+          "compagnie_a": "American",
+          "compagnie_b": "Comair",
+          "pct_a": 19.5,
+          "pct_b": 19.6
+        },
+        {
+          "compagnie_a": "American",
+          "compagnie_b": "Delta",
+          "pct_a": 19.5,
+          "pct_b": 19.1
+        },
+        {
+          "compagnie_a": "American",
+          "compagnie_b": "Envoy",
+          "pct_a": 19.5,
+          "pct_b": 19.5
+        },
+        {
+          "compagnie_a": "American",
+          "compagnie_b": "SkyWest",
+          "pct_a": 19.5,
+          "pct_b": 21.4
+        },
+        {
+          "compagnie_a": "American",
+          "compagnie_b": "United",
+          "pct_a": 19.5,
+          "pct_b": 19.9
+        },
+        {
+          "compagnie_a": "Autres",
+          "compagnie_b": "Comair",
+          "pct_a": 20.9,
+          "pct_b": 19.6
+        },
+        {
+          "compagnie_a": "Autres",
+          "compagnie_b": "Delta",
+          "pct_a": 20.9,
+          "pct_b": 19.1
+        },
+        {
+          "compagnie_a": "Autres",
+          "compagnie_b": "Envoy",
+          "pct_a": 20.9,
+          "pct_b": 19.5
+        },
+        {
+          "compagnie_a": "Autres",
+          "compagnie_b": "Republic",
+          "pct_a": 20.9,
+          "pct_b": 16.7
+        },
+        {
+          "compagnie_a": "Autres",
+          "compagnie_b": "SkyWest",
+          "pct_a": 20.9,
+          "pct_b": 21.4
+        },
+        {
+          "compagnie_a": "Autres",
+          "compagnie_b": "United",
+          "pct_a": 20.9,
+          "pct_b": 19.9
+        },
+        {
+          "compagnie_a": "Comair",
+          "compagnie_b": "Delta",
+          "pct_a": 19.6,
+          "pct_b": 19.1
+        },
+        {
+          "compagnie_a": "Comair",
+          "compagnie_b": "Envoy",
+          "pct_a": 19.6,
+          "pct_b": 19.5
+        },
+        {
+          "compagnie_a": "Comair",
+          "compagnie_b": "Mesa",
+          "pct_a": 19.6,
+          "pct_b": 15.3
+        },
+        {
+          "compagnie_a": "Comair",
+          "compagnie_b": "Republic",
+          "pct_a": 19.6,
+          "pct_b": 16.7
+        },
+        {
+          "compagnie_a": "Comair",
+          "compagnie_b": "SkyWest",
+          "pct_a": 19.6,
+          "pct_b": 21.4
+        },
+        {
+          "compagnie_a": "Comair",
+          "compagnie_b": "United",
+          "pct_a": 19.6,
+          "pct_b": 19.9
+        },
+        {
+          "compagnie_a": "Delta",
+          "compagnie_b": "Envoy",
+          "pct_a": 19.1,
+          "pct_b": 19.5
+        },
+        {
+          "compagnie_a": "Delta",
+          "compagnie_b": "SkyWest",
+          "pct_a": 19.1,
+          "pct_b": 21.4
+        },
+        {
+          "compagnie_a": "Delta",
+          "compagnie_b": "United",
+          "pct_a": 19.1,
+          "pct_b": 19.9
+        },
+        {
+          "compagnie_a": "Envoy",
+          "compagnie_b": "Mesa",
+          "pct_a": 19.5,
+          "pct_b": 15.3
+        },
+        {
+          "compagnie_a": "Envoy",
+          "compagnie_b": "Republic",
+          "pct_a": 19.5,
+          "pct_b": 16.7
+        },
+        {
+          "compagnie_a": "Envoy",
+          "compagnie_b": "SkyWest",
+          "pct_a": 19.5,
+          "pct_b": 21.4
+        },
+        {
+          "compagnie_a": "Envoy",
+          "compagnie_b": "United",
+          "pct_a": 19.5,
+          "pct_b": 19.9
+        },
+        {
+          "compagnie_a": "Frontier",
+          "compagnie_b": "Southwest",
+          "pct_a": 30.2,
+          "pct_b": 31.3
+        },
+        {
+          "compagnie_a": "Mesa",
+          "compagnie_b": "Republic",
+          "pct_a": 15.3,
+          "pct_b": 16.7
+        },
+        {
+          "compagnie_a": "SkyWest",
+          "compagnie_b": "United",
+          "pct_a": 21.4,
+          "pct_b": 19.9
+        }
+      ]
+    },
+    "domino_rang": {
+      "pct_retard_par_rang": {
+        "1": 18.2,
+        "2": 19.0,
+        "3": 19.1
+      },
+      "pct_premiers_departs_apres_14h": 31.2,
+      "pct_retard_premier_depart_soir": 33.4,
+      "domino_par_tranche": {
+        "Après-midi (14-18 h)": {
+          "si_precedent_a_l_heure": 14.7,
+          "si_precedent_en_retard": 40.7
+        },
+        "Midi (10-14 h)": {
+          "si_precedent_a_l_heure": 13.2,
+          "si_precedent_en_retard": 41.6
+        },
+        "Soir (après 18 h)": {
+          "si_precedent_a_l_heure": 16.6,
+          "si_precedent_en_retard": 40.2
+        }
+      }
+    },
+    "sensibilite_types": {
+      "A : classification retenue": {
+        "Bas coût": 30.6,
+        "Majeure": 19.1,
+        "Régionale": 12.1,
+        "ordre_conserve": true
+      },
+      "B : JetBlue classée majeure (« hybride »)": {
+        "Bas coût": 30.3,
+        "Majeure": 19.3,
+        "Régionale": 12.1,
+        "ordre_conserve": true
+      },
+      "C : sans la plus grosse compagnie de chaque type": {
+        "Bas coût": 29.4,
+        "Majeure": 19.7,
+        "Régionale": 17.8,
+        "ordre_conserve": true
+      }
+    },
+    "valeurs_extremes": {
+      "nb_retards_plus_6h": 590,
+      "nb_retards_plus_24h": 5,
+      "retard_max_min": 2650.0,
+      "nb_heures_incoherentes": 5,
+      "nb_arrivee_incoherente": 0,
+      "decision": "valeurs suspectes : conservées et signalées (pas de preuve d'erreur ; un vol reporté au lendemain garde son numéro). Erreurs vérifiées : aucune."
+    },
+    "evenements": [
+      {
+        "nom": "Crise opérationnelle de Spirit",
+        "debut": "2021-08-02",
+        "fin": "2021-08-05",
+        "compagnies": "Spirit",
+        "nb_vols": 110,
+        "pct_annules": 79.1,
+        "pct_annules_normal": 2.5,
+        "pct_retard": 65.2,
+        "pct_retard_normal": 24.3,
+        "visible": true,
+        "explication": "Météo, manque de personnel et équipages arrivés à leur limite d'heures de vol : Spirit annule plus de 2 800 vols du 30 juillet au 9 août 2021 (coût : 50 millions de dollars).",
+        "source": "https://www.cbsnews.com/amp/news/long-lines-stranded-passengers-and-more-than-half-of-scheduled-flights-cancelled-as-spirit-airlines-enters-fifth-day-of-operational-issues"
+      },
+      {
+        "nom": "Week-end noir de Southwest",
+        "debut": "2021-10-09",
+        "fin": "2021-10-10",
+        "compagnies": "Southwest",
+        "nb_vols": 166,
+        "pct_annules": 26.5,
+        "pct_annules_normal": 1.8,
+        "pct_retard": 59.0,
+        "pct_retard_normal": 29.8,
+        "visible": true,
+        "explication": "Problèmes de contrôle aérien en Floride et météo : Southwest annule 29 % de son programme le dimanche. Les rumeurs de grève des pilotes ont été démenties.",
+        "source": "https://abc13.com/post/southwest-cancellations-airlines-flights-delays/11107033/"
+      },
+      {
+        "nom": "Halloween d'American",
+        "debut": "2021-10-30",
+        "fin": "2021-10-31",
+        "compagnies": "American",
+        "nb_vols": 41,
+        "pct_annules": 31.7,
+        "pct_annules_normal": 2.3,
+        "pct_retard": 17.9,
+        "pct_retard_normal": 17.4,
+        "visible": true,
+        "explication": "Vents violents à Dallas-Fort Worth, son plus grand hub (2 pistes sur 5 utilisables), aggravés par le manque de personnel : plus de 1 700 vols annulés en un week-end.",
+        "source": "https://www.wabe.org/american-airlines-has-cancelled-nearly-1-600-flights-since-friday/"
+      },
+      {
+        "nom": "Noël 2021 : variant Omicron",
+        "debut": "2021-12-24",
+        "fin": "2022-01-03",
+        "compagnies": "toutes",
+        "nb_vols": 8936,
+        "pct_annules": 6.2,
+        "pct_annules_normal": 1.3,
+        "pct_retard": 31.7,
+        "pct_retard_normal": 18.2,
+        "visible": true,
+        "explication": "Pilotes et équipages en quarantaine (Omicron), plus la météo : Delta annule 344 de ses 3 000 vols le soir de Noël ; les annulations continuent jusqu'au début janvier.",
+        "source": "https://www.mprnews.org/story/2021/12/24/delta-cancels-christmas-eve-flights-due-to-crew-shortages"
+      },
+      {
+        "nom": "Tempête d'hiver Izzy",
+        "debut": "2022-01-16",
+        "fin": "2022-01-16",
+        "compagnies": "toutes",
+        "nb_vols": 717,
+        "pct_annules": 33.2,
+        "pct_annules_normal": 1.3,
+        "pct_retard": 25.9,
+        "pct_retard_normal": 18.5,
+        "visible": true,
+        "explication": "Neige et verglas sur le Sud-Est : Delta supprime environ 300 vols de son hub d'Atlanta, 110 000 foyers sans électricité en Géorgie.",
+        "source": "https://news.yahoo.com/winter-storm-izzy-worst-ice-205615918.html"
+      },
+      {
+        "nom": "Blizzard du Nord-Est",
+        "debut": "2022-01-29",
+        "fin": "2022-01-29",
+        "compagnies": "JetBlue",
+        "nb_vols": 6,
+        "pct_annules": 83.3,
+        "pct_annules_normal": 3.5,
+        "pct_retard": 100.0,
+        "pct_retard_normal": 34.4,
+        "visible": true,
+        "explication": "Blizzard sur New York (JFK) et Boston, les bases de JetBlue : 68 % de son programme annulé ce jour-là.",
+        "source": "https://foxbusiness.com/lifestyle/thousands-flights-delayed-canceled-winter-storm"
+      },
+      {
+        "nom": "Tempête d'hiver au Texas",
+        "debut": "2022-02-03",
+        "fin": "2022-02-04",
+        "compagnies": "American, Southwest",
+        "nb_vols": 215,
+        "pct_annules": 18.6,
+        "pct_annules_normal": 1.9,
+        "pct_retard": 32.0,
+        "pct_retard_normal": 27.5,
+        "visible": true,
+        "explication": "Pluie verglaçante à Dallas : American annule environ 700 vols (23 % de son programme) ; Southwest suspend ses vols à Dallas Love Field.",
+        "source": "https://thepointsguy.com/news/winter-weather-cancelations-feb-3"
+      },
+      {
+        "nom": "Orages sur Atlanta",
+        "debut": "2022-03-18",
+        "fin": "2022-03-18",
+        "compagnies": "toutes",
+        "nb_vols": 914,
+        "pct_annules": 6.5,
+        "pct_annules_normal": 1.4,
+        "pct_retard": 64.3,
+        "pct_retard_normal": 18.4,
+        "visible": true,
+        "explication": "Orages sur l'agglomération : la FAA retient les avions aux portes et au roulage (31 à 45 min).",
+        "source": "https://www.atlantanewsfirst.com/2022/03/18/delays-reported-hartsfield-jackson-atlanta-international-airport-because-thunderstorm"
+      },
+      {
+        "nom": "Orages en Floride",
+        "debut": "2022-04-02",
+        "fin": "2022-04-03",
+        "compagnies": "JetBlue, Spirit, Frontier, Southwest",
+        "nb_vols": 249,
+        "pct_annules": 21.7,
+        "pct_annules_normal": 2.2,
+        "pct_retard": 69.2,
+        "pct_retard_normal": 28.8,
+        "visible": true,
+        "explication": "Orages en Floride et programmes de régulation du contrôle aérien, en pleine période de vacances : plus de 3 300 vols annulés aux États-Unis ; JetBlue et Spirit annulent un tiers de leurs vols.",
+        "source": "https://www.wlrn.org/local-news/2022-04-04/airlines-cancel-more-than-3-500-us-flights-over-weekend"
+      },
+      {
+        "nom": "Week-end de Juneteenth",
+        "debut": "2022-06-16",
+        "fin": "2022-06-19",
+        "compagnies": "toutes",
+        "nb_vols": 3601,
+        "pct_annules": 5.9,
+        "pct_annules_normal": 1.4,
+        "pct_retard": 36.8,
+        "pct_retard_normal": 18.4,
+        "visible": true,
+        "explication": "Week-end de fête (Juneteenth, fête des pères), trafic record, météo, contrôle aérien et absences : plus de 5 000 vols annulés aux États-Unis ; près de 100 à Atlanta le dimanche.",
+        "source": "https://www.nbcnews.com/news/holiday-weekend-sees-massive-amount-flight-cancellations-rcna34297"
+      }
+    ],
+    "jours_non_expliques": [
+      "2022-03-12",
+      "2022-07-21"
+    ],
+    "faits_metier": [
+      {
+        "theme": "L'aéroport",
+        "fait": "Hartsfield-Jackson Atlanta est l'aéroport le plus fréquenté du monde en 2021 (75,7 millions de passagers) et en 2022 (93,7 millions), selon le classement ACI World.",
+        "lien_donnees": "Environ 875 départs par jour dans nos données : beaucoup de vols, de compagnies et de destinations.",
+        "source": "https://moodiedavittreport.com/hartsfield-jackson-atlanta-tops-aci-world-ranking-of-20-busiest-airports-in-2022"
+      },
+      {
+        "theme": "Delta",
+        "fait": "Atlanta est le siège et le plus grand hub (aéroport-centre) de Delta : plus de 70 % des passagers de l'aéroport en 2023, selon Delta.",
+        "lien_donnees": "Delta fait 64 % des vols de notre population : un chiffre « global » décrit surtout Delta.",
+        "source": "https://news.delta.com/delta-atl-bigger-and-bolder-worlds-largest-airline-hub-summer-2025"
+      },
+      {
+        "theme": "Les régionales",
+        "fait": "Endeavor Air est une filiale à 100 % de Delta : elle opère les vols « Delta Connection » que Delta programme et vend. Atlanta est l'un de ses hubs.",
+        "lien_donnees": "Dans les données, ses vols portent le code DL_CODESHARE ; elle fait 3 vols régionaux sur 4.",
+        "source": "https://www.endeavorair.com/content/endeavor-air/en_us/about-us/Fact_Sheet.html"
+      },
+      {
+        "theme": "Les régionales",
+        "fait": "Les autres régionales (Republic, SkyWest, Envoy...) volent sous contrat d'achat de capacité (« capacity purchase agreement ») : la grande compagnie fixe les vols et les prix, la régionale opère.",
+        "lien_donnees": "Republic et SkyWest volent sous 3 marques (Delta, American, United) : leur ponctualité mélange plusieurs réseaux.",
+        "source": "https://www.sec.gov/Archives/edgar/data/6201/000000620125000038/R27.htm"
+      },
+      {
+        "theme": "Les causes officielles",
+        "fait": "Le BTS classe chaque retard en 5 causes : compagnie, météo extrême, système aérien national, sécurité, avion arrivé en retard (« le vol précédent du même avion est arrivé en retard »). De 2010 à 2019, l'avion arrivé en retard est la 1re cause (environ 40 % des retards) ; de 2020 à 2022, c'est la compagnie.",
+        "lien_donnees": "Ces causes ne sont pas dans notre fichier ; notre « effet domino » mesure l'équivalent de la cause « avion arrivé en retard », vu depuis Atlanta.",
+        "source": "https://www.bts.gov/browse-statistical-products-and-data/info-gallery/percent-flight-delay-delay-cause-2010-2022"
+      },
+      {
+        "theme": "La période",
+        "fait": "2021-2022 est l'année de la reprise après le COVID : les compagnies avaient réduit leur personnel en 2020 et manquaient d'équipages quand les voyageurs sont revenus.",
+        "lien_donnees": "Plusieurs crises de l'année (Spirit en août, Noël 2021) sont liées au manque de personnel.",
+        "source": "https://www.mprnews.org/story/2021/12/24/delta-cancels-christmas-eve-flights-due-to-crew-shortages"
+      },
+      {
+        "theme": "Delta en été 2022",
+        "fait": "Delta a retiré 100 départs par jour de son programme du 1er juillet au 7 août 2022, pour gagner en fiabilité (météo, contrôle aérien, absences liées au COVID).",
+        "lien_donnees": "Malgré cela, juillet 2022 est le mois le plus en retard de notre année.",
+        "source": "https://www.fox5ny.com/news/delta-air-lines-to-cut-100-daily-flights-over-the-summer"
+      }
+    ],
+    "decomposition_variance": {
+      "FlightDate": {
+        "nb_groupes": 365,
+        "taille_moyenne": 862.6,
+        "part_inter_pct": 6.71,
+        "icc": 0.0662
+      },
+      "compagnie": {
+        "nb_groupes": 14,
+        "taille_moyenne": 22488.9,
+        "part_inter_pct": 1.84,
+        "icc": 0.0325
+      },
+      "tranche_horaire": {
+        "nb_groupes": 4,
+        "taille_moyenne": 78711.0,
+        "part_inter_pct": 1.86,
+        "icc": 0.0248
+      },
+      "saison": {
+        "nb_groupes": 4,
+        "taille_moyenne": 78711.0,
+        "part_inter_pct": 1.14,
+        "icc": 0.0152
+      },
+      "grappes_jours": {
+        "effet_de_plan": 58.0,
+        "taille_efficace": 86,
+        "marge_attendue_points": 8.21
+      }
+    },
+    "reponses_echantillon": {
+      "nb_echantillons": 30,
+      "taille": 5000,
+      "par_compagnie": {
+        "American": {
+          "mediane": 19.89,
+          "bas": 16.78,
+          "haut": 23.99
+        },
+        "Autres": {
+          "mediane": 21.01,
+          "bas": 19.05,
+          "haut": 24.27
+        },
+        "Comair": {
+          "mediane": 19.47,
+          "bas": 17.49,
+          "haut": 21.85
+        },
+        "Delta": {
+          "mediane": 18.49,
+          "bas": 15.69,
+          "haut": 21.44
+        },
+        "Endeavor (Delta Connection)": {
+          "mediane": 9.94,
+          "bas": 8.53,
+          "haut": 12.25
+        },
+        "Envoy": {
+          "mediane": 19.89,
+          "bas": 16.25,
+          "haut": 22.46
+        },
+        "Frontier": {
+          "mediane": 30.39,
+          "bas": 26.15,
+          "haut": 34.45
+        },
+        "JetBlue": {
+          "mediane": 36.55,
+          "bas": 33.03,
+          "haut": 41.76
+        },
+        "Mesa": {
+          "mediane": 15.69,
+          "bas": 12.32,
+          "haut": 17.37
+        },
+        "Republic": {
+          "mediane": 16.95,
+          "bas": 13.39,
+          "haut": 19.2
+        },
+        "SkyWest": {
+          "mediane": 21.57,
+          "bas": 17.93,
+          "haut": 25.21
+        },
+        "Southwest": {
+          "mediane": 31.79,
+          "bas": 29.1,
+          "haut": 36.43
+        },
+        "Spirit": {
+          "mediane": 27.03,
+          "bas": 23.35,
+          "haut": 29.57
+        },
+        "United": {
+          "mediane": 20.03,
+          "bas": 17.37,
+          "haut": 23.0
+        }
+      },
+      "stabilite": {
+        "% de vols en retard": {
+          "moyenne": 18.687,
+          "ecart_type": 0.468,
+          "cv_pct": 2.5
+        },
+        "% annulés": {
+          "moyenne": 1.431,
+          "ecart_type": 0.148,
+          "cv_pct": 10.37
+        },
+        "Retard médian (min)": {
+          "moyenne": -1.0,
+          "ecart_type": 0.0,
+          "cv_pct": 0.0
+        },
+        "Retard moyen (min)": {
+          "moyenne": 9.732,
+          "ecart_type": 0.508,
+          "cv_pct": 5.22
+        },
+        "Écart soir − matin (pts)": {
+          "moyenne": 13.062,
+          "ecart_type": 1.112,
+          "cv_pct": 8.51
+        },
+        "Écart domino (pts)": {
+          "moyenne": 24.484,
+          "ecart_type": 2.937,
+          "cv_pct": 12.0
+        }
+      }
+    }
+  },
+  "equipe": {
+    "modele": {
+      "n": 314844,
+      "pseudo_r2": 0.079,
+      "auc": 0.692,
+      "auc_test": 0.689,
+      "brier_test": 0.1388,
+      "brier_reference": 0.1512,
+      "part_vols_pluie_depart_pct": 8.8,
+      "rapports_de_cotes": {
+        "Compagnie : American": {
+          "rapport_de_cotes": 1.081,
+          "ic_bas": 1.014,
+          "ic_haut": 1.152,
+          "p_valeur": 0.016810526767769854
+        },
+        "Compagnie : Autres": {
+          "rapport_de_cotes": 1.005,
+          "ic_bas": 0.842,
+          "ic_haut": 1.199,
+          "p_valeur": 0.9578522381806758
+        },
+        "Compagnie : Comair": {
+          "rapport_de_cotes": 0.855,
+          "ic_bas": 0.734,
+          "ic_haut": 0.996,
+          "p_valeur": 0.04363616488515787
+        },
+        "Compagnie : Endeavor (Delta Connection)": {
+          "rapport_de_cotes": 0.523,
+          "ic_bas": 0.505,
+          "ic_haut": 0.542,
+          "p_valeur": 4.836179511362665e-273
+        },
+        "Compagnie : Envoy": {
+          "rapport_de_cotes": 0.792,
+          "ic_bas": 0.682,
+          "ic_haut": 0.92,
+          "p_valeur": 0.002244055803598629
+        },
+        "Compagnie : Frontier": {
+          "rapport_de_cotes": 1.822,
+          "ic_bas": 1.721,
+          "ic_haut": 1.93,
+          "p_valeur": 2.430697000881354e-93
+        },
+        "Compagnie : JetBlue": {
+          "rapport_de_cotes": 2.651,
+          "ic_bas": 2.417,
+          "ic_haut": 2.908,
+          "p_valeur": 6.524470398567606e-95
+        },
+        "Compagnie : Mesa": {
+          "rapport_de_cotes": 0.692,
+          "ic_bas": 0.599,
+          "ic_haut": 0.801,
+          "p_valeur": 7.2659702321825e-07
+        },
+        "Compagnie : Republic": {
+          "rapport_de_cotes": 0.752,
+          "ic_bas": 0.699,
+          "ic_haut": 0.808,
+          "p_valeur": 6.9009434035041555e-15
+        },
+        "Compagnie : SkyWest": {
+          "rapport_de_cotes": 1.046,
+          "ic_bas": 0.93,
+          "ic_haut": 1.176,
+          "p_valeur": 0.450282000000334
+        },
+        "Compagnie : Southwest": {
+          "rapport_de_cotes": 1.948,
+          "ic_bas": 1.891,
+          "ic_haut": 2.006,
+          "p_valeur": 0.0
+        },
+        "Compagnie : Spirit": {
+          "rapport_de_cotes": 1.55,
+          "ic_bas": 1.471,
+          "ic_haut": 1.633,
+          "p_valeur": 3.0158065188260774e-60
+        },
+        "Compagnie : United": {
+          "rapport_de_cotes": 0.925,
+          "ic_bas": 0.844,
+          "ic_haut": 1.015,
+          "p_valeur": 0.09874663620577417
+        },
+        "Heure : Après-midi": {
+          "rapport_de_cotes": 2.658,
+          "ic_bas": 2.571,
+          "ic_haut": 2.748,
+          "p_valeur": 0.0
+        },
+        "Heure : Midi": {
+          "rapport_de_cotes": 1.489,
+          "ic_bas": 1.443,
+          "ic_haut": 1.538,
+          "p_valeur": 9.515920637047388e-133
+        },
+        "Heure : Soir": {
+          "rapport_de_cotes": 3.187,
+          "ic_bas": 3.089,
+          "ic_haut": 3.289,
+          "p_valeur": 0.0
+        },
+        "Saison : Hiver": {
+          "rapport_de_cotes": 1.258,
+          "ic_bas": 1.221,
+          "ic_haut": 1.295,
+          "p_valeur": 9.171694813181461e-53
+        },
+        "Saison : Printemps": {
+          "rapport_de_cotes": 1.77,
+          "ic_bas": 1.721,
+          "ic_haut": 1.82,
+          "p_valeur": 0.0
+        },
+        "Saison : Été": {
+          "rapport_de_cotes": 1.905,
+          "ic_bas": 1.854,
+          "ic_haut": 1.958,
+          "p_valeur": 0.0
+        },
+        "Jour : Dimanche": {
+          "rapport_de_cotes": 1.567,
+          "ic_bas": 1.512,
+          "ic_haut": 1.625,
+          "p_valeur": 5.97055049189392e-131
+        },
+        "Jour : Jeudi": {
+          "rapport_de_cotes": 1.517,
+          "ic_bas": 1.464,
+          "ic_haut": 1.573,
+          "p_valeur": 1.7341929322137836e-113
+        },
+        "Jour : Lundi": {
+          "rapport_de_cotes": 1.338,
+          "ic_bas": 1.29,
+          "ic_haut": 1.388,
+          "p_valeur": 2.0531916712677712e-54
+        },
+        "Jour : Mercredi": {
+          "rapport_de_cotes": 1.055,
+          "ic_bas": 1.015,
+          "ic_haut": 1.096,
+          "p_valeur": 0.006366473607194174
+        },
+        "Jour : Samedi": {
+          "rapport_de_cotes": 1.457,
+          "ic_bas": 1.403,
+          "ic_haut": 1.514,
+          "p_valeur": 2.3393152666480037e-84
+        },
+        "Jour : Vendredi": {
+          "rapport_de_cotes": 1.675,
+          "ic_bas": 1.616,
+          "ic_haut": 1.737,
+          "p_valeur": 1.422050167750095e-173
+        },
+        "Vol précédent : pas de vol précédent (1er départ)": {
+          "rapport_de_cotes": 1.63,
+          "ic_bas": 1.59,
+          "ic_haut": 1.671,
+          "p_valeur": 0.0
+        },
+        "Vol précédent : vol précédent en retard": {
+          "rapport_de_cotes": 3.122,
+          "ic_bas": 3.013,
+          "ic_haut": 3.234,
+          "p_valeur": 0.0
+        },
+        "Pluie à l'heure du départ": {
+          "rapport_de_cotes": 1.244,
+          "ic_bas": 1.203,
+          "ic_haut": 1.286,
+          "p_valeur": 3.14098025992183e-38
+        },
+        "Rafales fortes (≥ 40 km/h)": {
+          "rapport_de_cotes": 1.336,
+          "ic_bas": 1.293,
+          "ic_haut": 1.381,
+          "p_valeur": 3.9301941056315275e-67
+        },
+        "Journée pluvieuse (≥ 6 h de pluie)": {
+          "rapport_de_cotes": 1.377,
+          "ic_bas": 1.348,
+          "ic_haut": 1.407,
+          "p_valeur": 2.2082661995579514e-185
+        }
+      },
+      "importance_pseudo_r2": {
+        "Heure de départ": 0.0211,
+        "Compagnie": 0.0156,
+        "Vol précédent du même avion": 0.0142,
+        "Saison": 0.0095,
+        "Météo (pluie, rafales)": 0.0065,
+        "Jour de la semaine": 0.0047
+      },
+      "scenarios": {
+        "Endeavor, mardi matin d'automne, temps sec, avion à l'heure": 1.6,
+        "Delta, jeudi midi de printemps, temps sec, avion à l'heure": 10.9,
+        "JetBlue, vendredi soir d'été, pluie, avion déjà en retard": 81.5
+      },
+      "references": {
+        "compagnie": "Delta",
+        "tranche": "Matin",
+        "saison": "Automne",
+        "jour": "Mardi",
+        "precedent": "a_l_heure"
+      },
+      "coefficients": {
+        "Intercept": -3.487156351383655,
+        "C(compagnie, Treatment('Delta'))[T.American]": 0.07776389642710299,
+        "C(compagnie, Treatment('Delta'))[T.Autres]": 0.004773840644728209,
+        "C(compagnie, Treatment('Delta'))[T.Comair]": -0.1566336824104597,
+        "C(compagnie, Treatment('Delta'))[T.Endeavor (Delta Connection)]": -0.6476948326077647,
+        "C(compagnie, Treatment('Delta'))[T.Envoy]": -0.23360185335882944,
+        "C(compagnie, Treatment('Delta'))[T.Frontier]": 0.6000646222011348,
+        "C(compagnie, Treatment('Delta'))[T.JetBlue]": 0.9749740948412583,
+        "C(compagnie, Treatment('Delta'))[T.Mesa]": -0.3674735564305413,
+        "C(compagnie, Treatment('Delta'))[T.Republic]": -0.2855283581936838,
+        "C(compagnie, Treatment('Delta'))[T.SkyWest]": 0.04513390608562168,
+        "C(compagnie, Treatment('Delta'))[T.Southwest]": 0.6665793003256726,
+        "C(compagnie, Treatment('Delta'))[T.Spirit]": 0.4382425677003138,
+        "C(compagnie, Treatment('Delta'))[T.United]": -0.07744325283984213,
+        "C(tranche, Treatment('Matin'))[T.Après-midi]": 0.9776025848958717,
+        "C(tranche, Treatment('Matin'))[T.Midi]": 0.39839410319853197,
+        "C(tranche, Treatment('Matin'))[T.Soir]": 1.159204654699985,
+        "C(saison, Treatment('Automne'))[T.Hiver]": 0.22946616170785633,
+        "C(saison, Treatment('Automne'))[T.Printemps]": 0.5707370570586849,
+        "C(saison, Treatment('Automne'))[T.Été]": 0.6445672454531094,
+        "C(jour, Treatment('Mardi'))[T.Dimanche]": 0.449285979750766,
+        "C(jour, Treatment('Mardi'))[T.Jeudi]": 0.4169270143495904,
+        "C(jour, Treatment('Mardi'))[T.Lundi]": 0.2909745285666045,
+        "C(jour, Treatment('Mardi'))[T.Mercredi]": 0.053425956172531354,
+        "C(jour, Treatment('Mardi'))[T.Samedi]": 0.37652413886815994,
+        "C(jour, Treatment('Mardi'))[T.Vendredi]": 0.5158939037768303,
+        "C(precedent, Treatment('a_l_heure'))[T.aucun]": 0.48868718975166553,
+        "C(precedent, Treatment('a_l_heure'))[T.en_retard]": 1.1383343994700375,
+        "pluie_depart": 0.2182068159133993,
+        "rafales_fortes": 0.2900443500092216,
+        "jour_pluvieux": 0.3199883372701227
+      }
+    },
+    "destinations": {
+      "nb": 140,
+      "meilleures": [
+        {
+          "dest": "XNA",
+          "ville": "Fayetteville, AR",
+          "nb_vols": 1544,
+          "pct_retard": 7.6,
+          "pct_annules": 0.7
+        },
+        {
+          "dest": "AEX",
+          "ville": "Alexandria, LA",
+          "nb_vols": 902,
+          "pct_retard": 8.1,
+          "pct_annules": 0.6
+        },
+        {
+          "dest": "CSG",
+          "ville": "Columbus, GA",
+          "nb_vols": 1003,
+          "pct_retard": 8.8,
+          "pct_annules": 0.2
+        },
+        {
+          "dest": "AGS",
+          "ville": "Augusta, GA",
+          "nb_vols": 2226,
+          "pct_retard": 8.8,
+          "pct_annules": 0.4
+        },
+        {
+          "dest": "MLI",
+          "ville": "Moline, IL",
+          "nb_vols": 729,
+          "pct_retard": 8.8,
+          "pct_annules": 0.7
+        }
+      ],
+      "pires": [
+        {
+          "dest": "JFK",
+          "ville": "New York, NY",
+          "nb_vols": 3173,
+          "pct_retard": 31.5,
+          "pct_annules": 2.1
+        },
+        {
+          "dest": "FLL",
+          "ville": "Fort Lauderdale, FL",
+          "nb_vols": 7078,
+          "pct_retard": 26.2,
+          "pct_annules": 1.8
+        },
+        {
+          "dest": "MCO",
+          "ville": "Orlando, FL",
+          "nb_vols": 7615,
+          "pct_retard": 25.9,
+          "pct_annules": 1.5
+        },
+        {
+          "dest": "TPA",
+          "ville": "Tampa, FL",
+          "nb_vols": 5872,
+          "pct_retard": 24.6,
+          "pct_annules": 1.3
+        },
+        {
+          "dest": "SJU",
+          "ville": "San Juan, PR",
+          "nb_vols": 1279,
+          "pct_retard": 24.6,
+          "pct_annules": 0.6
+        }
+      ]
+    },
+    "creneaux": {
+      "nb": 129,
+      "meilleurs": [
+        {
+          "compagnie": "United",
+          "tranche_horaire": "Matin (avant 10 h)",
+          "saison": "Automne",
+          "nb_vols_partis": 265,
+          "pct_retard": 4.5
+        },
+        {
+          "compagnie": "Endeavor (Delta Connection)",
+          "tranche_horaire": "Midi (10-14 h)",
+          "saison": "Automne",
+          "nb_vols_partis": 3243,
+          "pct_retard": 5.4
+        },
+        {
+          "compagnie": "United",
+          "tranche_horaire": "Matin (avant 10 h)",
+          "saison": "Printemps",
+          "nb_vols_partis": 284,
+          "pct_retard": 5.6
+        }
+      ],
+      "pires": [
+        {
+          "compagnie": "Southwest",
+          "tranche_horaire": "Soir (après 18 h)",
+          "saison": "Été",
+          "nb_vols_partis": 2664,
+          "pct_retard": 65.3
+        },
+        {
+          "compagnie": "Southwest",
+          "tranche_horaire": "Soir (après 18 h)",
+          "saison": "Printemps",
+          "nb_vols_partis": 2331,
+          "pct_retard": 52.5
+        },
+        {
+          "compagnie": "Frontier",
+          "tranche_horaire": "Soir (après 18 h)",
+          "saison": "Printemps",
+          "nb_vols_partis": 393,
+          "pct_retard": 52.2
+        }
+      ]
+    },
+    "meteo_par_classe": {
+      "Sec (0 mm)": {
+        "nb_jours": 171,
+        "pct_retard": 14.1,
+        "pct_annules": 1.1
+      },
+      "Faible (< 5 mm)": {
+        "nb_jours": 99,
+        "pct_retard": 20.7,
+        "pct_annules": 1.6
+      },
+      "Moyenne (5-20 mm)": {
+        "nb_jours": 65,
+        "pct_retard": 23.9,
+        "pct_annules": 1.4
+      },
+      "Forte (> 20 mm)": {
+        "nb_jours": 30,
+        "pct_retard": 24.5,
+        "pct_annules": 2.8
+      }
+    },
+    "correlations_meteo": {
+      "pluie_mm": 0.45,
+      "heures_de_pluie": 0.43,
+      "rafales_max_kmh": 0.28,
+      "neige_cm": 0.13,
+      "temperature_max": 0.3
+    },
+    "records": {
+      "jour_le_plus_en_retard": {
+        "date_vol": "2022-03-18",
+        "jour_semaine": "Vendredi",
+        "pct_retard": 64.3
+      },
+      "jour_le_plus_calme": {
+        "date_vol": "2022-02-08",
+        "jour_semaine": "Mardi",
+        "pct_retard": 3.3
+      },
+      "jour_le_plus_annule": {
+        "date_vol": "2022-01-16",
+        "pct_annules": 33.2,
+        "neige_cm": 4.55
+      },
+      "vol_le_plus_en_retard": {
+        "date": "2022-03-02",
+        "compagnie": "American",
+        "destination": "ORD",
+        "minutes": 2650.0,
+        "heures": 44.2
+      },
+      "jours_feries": [
+        {
+          "date_vol": "2021-09-06",
+          "jour_ferie": "Labor Day",
+          "pct_retard": 12.1
+        },
+        {
+          "date_vol": "2021-10-11",
+          "jour_ferie": "Columbus Day",
+          "pct_retard": 19.0
+        },
+        {
+          "date_vol": "2021-11-11",
+          "jour_ferie": "Veterans Day",
+          "pct_retard": 12.8
+        },
+        {
+          "date_vol": "2021-11-25",
+          "jour_ferie": "Thanksgiving",
+          "pct_retard": 10.7
+        },
+        {
+          "date_vol": "2021-12-24",
+          "jour_ferie": "Noël (observé)",
+          "pct_retard": 14.2
+        },
+        {
+          "date_vol": "2021-12-25",
+          "jour_ferie": "Noël",
+          "pct_retard": 8.9
+        },
+        {
+          "date_vol": "2021-12-31",
+          "jour_ferie": "Nouvel An (observé)",
+          "pct_retard": 26.0
+        },
+        {
+          "date_vol": "2022-01-01",
+          "jour_ferie": "Nouvel An",
+          "pct_retard": 26.5
+        },
+        {
+          "date_vol": "2022-01-17",
+          "jour_ferie": "Martin Luther King Day",
+          "pct_retard": 21.7
+        },
+        {
+          "date_vol": "2022-02-21",
+          "jour_ferie": "Presidents' Day",
+          "pct_retard": 12.9
+        },
+        {
+          "date_vol": "2022-05-30",
+          "jour_ferie": "Memorial Day",
+          "pct_retard": 17.5
+        },
+        {
+          "date_vol": "2022-06-19",
+          "jour_ferie": "Juneteenth",
+          "pct_retard": 25.5
+        },
+        {
+          "date_vol": "2022-06-20",
+          "jour_ferie": "Juneteenth (observé)",
+          "pct_retard": 20.9
+        },
+        {
+          "date_vol": "2022-07-04",
+          "jour_ferie": "Independence Day",
+          "pct_retard": 10.2
+        }
+      ]
+    },
+    "jours_non_expliques_meteo": [
+      {
+        "date": "2022-03-12",
+        "jour": "Samedi",
+        "pct_retard": 57.7,
+        "pluie_mm": 16.2,
+        "heures_de_pluie": 7.0,
+        "rafales_max_kmh": 77.4,
+        "neige_cm": 0.07,
+        "temperature_max": 12.5
+      },
+      {
+        "date": "2022-07-21",
+        "jour": "Jeudi",
+        "pct_retard": 63.5,
+        "pluie_mm": 14.4,
+        "heures_de_pluie": 11.0,
+        "rafales_max_kmh": 38.9,
+        "neige_cm": 0.0,
+        "temperature_max": 28.6
+      }
+    ],
+    "meteo_mediane": {
+      "pluie_mm": 0.3,
+      "heures_de_pluie": 2.0,
+      "rafales_max_kmh": 33.5
+    },
+    "compagnies_contexte": {
+      "Delta": {
+        "marque": "Delta",
+        "base": "Atlanta (siège et plus grand hub)",
+        "remarque": "Atlanta est sa maison : 64 % des vols de l'aéroport."
+      },
+      "Endeavor (Delta Connection)": {
+        "marque": "Delta Connection",
+        "base": "hubs Delta, dont Atlanta",
+        "remarque": "Filiale à 100 % de Delta ; opère les vols régionaux que Delta programme et vend."
+      },
+      "American": {
+        "marque": "American",
+        "base": "Dallas-Fort Worth",
+        "remarque": "Atlanta n'est pas son hub : vols surtout vers ses propres hubs."
+      },
+      "United": {
+        "marque": "United",
+        "base": "Chicago O'Hare",
+        "remarque": "Atlanta n'est pas son hub : vols surtout vers ses propres hubs."
+      },
+      "Autres": {
+        "marque": "Alaska",
+        "base": "Seattle",
+        "remarque": "Regroupe Alaska Airlines seule (moins de 1 000 vols à Atlanta)."
+      },
+      "Southwest": {
+        "marque": "Southwest",
+        "base": "Dallas (siège)",
+        "remarque": "Réseau de point à point (pas de grand hub) ; crise d'octobre 2021."
+      },
+      "Spirit": {
+        "marque": "Spirit",
+        "base": "Fort Lauderdale",
+        "remarque": "Bas coût extrême ; crise d'août 2021 (manque de personnel)."
+      },
+      "Frontier": {
+        "marque": "Frontier",
+        "base": "Denver",
+        "remarque": "Bas coût extrême."
+      },
+      "JetBlue": {
+        "marque": "JetBlue",
+        "base": "New York JFK et Boston",
+        "remarque": "Ses bases sont dans le Nord-Est : le blizzard de janvier 2022 l'a frappée."
+      },
+      "Republic": {
+        "marque": "American Eagle, United Express, Delta Connection",
+        "base": "—",
+        "remarque": "Régionale sous contrat, pour 3 grandes compagnies."
+      },
+      "SkyWest": {
+        "marque": "United Express, Delta Connection, American Eagle",
+        "base": "—",
+        "remarque": "Régionale sous contrat, pour 3 grandes compagnies."
+      },
+      "Mesa": {
+        "marque": "United Express",
+        "base": "—",
+        "remarque": "Régionale sous contrat pour United."
+      },
+      "Envoy": {
+        "marque": "American Eagle",
+        "base": "—",
+        "remarque": "Régionale d'American."
+      },
+      "Comair": {
+        "marque": "American Eagle",
+        "base": "—",
+        "remarque": "Nom périmé dans le fichier : Comair a fermé en 2012 ; le code OH est en 2021-2022 celui de PSA Airlines, régionale d'American (nos vols « Comair » sont bien vendus par American)."
+      }
+    },
+    "sources_compagnies": {
+      "Comair fermée en 2012": "https://www.newstribune.com/news/2012/jul/31/delta-shut-down-regional-carrier-comair/",
+      "Code OH = PSA Airlines": "https://www.airportia.com/flights/oh5514/cincinnati/philadelphia/",
+      "BTS : un code peut changer de compagnie": "https://www.transtats.bts.gov/Tables.asp?QO_VQ=EFD"
+    }
+  },
+  "conclusions_compagnies": {
+    "Endeavor (Delta Connection)": {
+      "rang": 1,
+      "type": "Régionale",
+      "pct_retard_ou_annule": 10.2,
+      "position": "parmi les plus ponctuelles",
+      "constats": [
+        "annule très peu (0,5 %)",
+        "meilleure saison : automne (5,8 %), pire : été (13,8 %)",
+        "effet domino : 8,7 % → 29,2 %",
+        "à conditions égales, cote du retard × 0,52 par rapport à Delta (modèle)"
+      ],
+      "contexte": "Filiale à 100 % de Delta ; opère les vols régionaux que Delta programme et vend.",
+      "conclusion": "Endeavor (régionale) est parmi les plus ponctuelles : 10,2 % de vols retardés ou annulés, rang 1 sur 14. C'est elle qui fait l'avantage des régionales. Même à conditions égales, moins de retard que Delta."
+    },
+    "Mesa": {
+      "rang": 2,
+      "type": "Régionale",
+      "pct_retard_ou_annule": 15.3,
+      "position": "parmi les plus ponctuelles",
+      "constats": [
+        "pas séparable statistiquement de Comair, Envoy, Republic",
+        "annule beaucoup (2,8 % contre 1,4 % en moyenne)",
+        "meilleure saison : printemps (9,7 %), pire : hiver (16,7 %)",
+        "à conditions égales, cote du retard × 0,69 par rapport à Delta (modèle)"
+      ],
+      "contexte": "Régionale sous contrat pour United.",
+      "conclusion": "Mesa (régionale) est parmi les plus ponctuelles : 15,3 % de vols retardés ou annulés, rang 2 sur 14. Son rang exact n'est pas départageable. Même à conditions égales, moins de retard que Delta."
+    },
+    "Republic": {
+      "rang": 3,
+      "type": "Régionale",
+      "pct_retard_ou_annule": 16.7,
+      "position": "parmi les plus ponctuelles",
+      "constats": [
+        "pas séparable statistiquement de Autres, Comair, Envoy, Mesa",
+        "annule beaucoup (2,9 % contre 1,4 % en moyenne)",
+        "meilleure saison : automne (8,3 %), pire : été (18,7 %)",
+        "effet domino : 10,0 % → 41,0 %",
+        "à conditions égales, cote du retard × 0,75 par rapport à Delta (modèle)"
+      ],
+      "contexte": "Régionale sous contrat, pour 3 grandes compagnies.",
+      "conclusion": "Republic (régionale) est parmi les plus ponctuelles : 16,7 % de vols retardés ou annulés, rang 3 sur 14. Son rang exact n'est pas départageable. Même à conditions égales, moins de retard que Delta."
+    },
+    "Delta": {
+      "rang": 4,
+      "type": "Majeure",
+      "pct_retard_ou_annule": 19.1,
+      "position": "au milieu du classement",
+      "constats": [
+        "pas séparable statistiquement de American, Autres, Comair, Envoy, SkyWest, United",
+        "meilleure saison : automne (12,0 %), pire : été (23,1 %)",
+        "effet domino : 16,5 % → 40,0 %",
+        "référence du modèle"
+      ],
+      "contexte": "Atlanta est sa maison : 64 % des vols de l'aéroport.",
+      "conclusion": "Delta (majeure) est au milieu du classement : 19,1 % de vols retardés ou annulés, rang 4 sur 14. Son rang exact n'est pas départageable."
+    },
+    "American": {
+      "rang": 5,
+      "type": "Majeure",
+      "pct_retard_ou_annule": 19.5,
+      "position": "au milieu du classement",
+      "constats": [
+        "pas séparable statistiquement de Autres, Comair, Delta, Envoy, SkyWest, United",
+        "à heure égale, 3,5 points de plus : ses horaires la flattent",
+        "meilleure saison : hiver (12,0 %), pire : été (26,9 %)",
+        "crise(s) de l'année : Halloween d'American, Tempête d'hiver au Texas",
+        "à conditions égales, cote du retard × 1,08 par rapport à Delta (modèle)"
+      ],
+      "contexte": "Atlanta n'est pas son hub : vols surtout vers ses propres hubs.",
+      "conclusion": "American (majeure) est au milieu du classement : 19,5 % de vols retardés ou annulés, rang 5 sur 14. Son rang exact n'est pas départageable."
+    },
+    "Envoy": {
+      "rang": 6,
+      "type": "Régionale",
+      "pct_retard_ou_annule": 19.5,
+      "position": "au milieu du classement",
+      "constats": [
+        "pas séparable statistiquement de American, Autres, Comair, Delta, Mesa, Republic, SkyWest, United",
+        "meilleure saison : hiver (14,2 %), pire : été (27,0 %)",
+        "à conditions égales, cote du retard × 0,79 par rapport à Delta (modèle)"
+      ],
+      "contexte": "Régionale d'American.",
+      "conclusion": "Envoy (régionale) est au milieu du classement : 19,5 % de vols retardés ou annulés, rang 6 sur 14. Son rang exact n'est pas départageable. Même à conditions égales, moins de retard que Delta."
+    },
+    "Comair": {
+      "rang": 7,
+      "type": "Régionale",
+      "pct_retard_ou_annule": 19.6,
+      "position": "au milieu du classement",
+      "constats": [
+        "pas séparable statistiquement de American, Autres, Delta, Envoy, Mesa, Republic, SkyWest, United",
+        "meilleure saison : automne (11,7 %), pire : été (22,9 %)",
+        "à conditions égales, cote du retard × 0,85 par rapport à Delta (modèle)"
+      ],
+      "contexte": "Nom périmé dans le fichier : Comair a fermé en 2012 ; le code OH est en 2021-2022 celui de PSA Airlines, régionale d'American (nos vols « Comair » sont bien vendus par American).",
+      "conclusion": "Comair (régionale) est au milieu du classement : 19,6 % de vols retardés ou annulés, rang 7 sur 14. Son rang exact n'est pas départageable."
+    },
+    "United": {
+      "rang": 8,
+      "type": "Majeure",
+      "pct_retard_ou_annule": 19.9,
+      "position": "au milieu du classement",
+      "constats": [
+        "pas séparable statistiquement de American, Autres, Comair, Delta, Envoy, SkyWest",
+        "annule beaucoup (3,0 % contre 1,4 % en moyenne)",
+        "à heure égale, 3,2 points de plus : ses horaires la flattent",
+        "meilleure saison : automne (11,7 %), pire : printemps (21,9 %)",
+        "à conditions égales, pas différente de Delta (modèle)"
+      ],
+      "contexte": "Atlanta n'est pas son hub : vols surtout vers ses propres hubs.",
+      "conclusion": "United (majeure) est au milieu du classement : 19,9 % de vols retardés ou annulés, rang 8 sur 14. Son rang exact n'est pas départageable."
+    },
+    "Autres": {
+      "rang": 9,
+      "type": "Majeure",
+      "pct_retard_ou_annule": 20.9,
+      "position": "au milieu du classement",
+      "constats": [
+        "pas séparable statistiquement de American, Comair, Delta, Envoy, Republic, SkyWest, United",
+        "à heure égale, 2,5 points de moins : ses horaires la pénalisent",
+        "meilleure saison : automne (15,3 %), pire : printemps (24,5 %)",
+        "à conditions égales, pas différente de Delta (modèle)"
+      ],
+      "contexte": "Regroupe Alaska Airlines seule (moins de 1 000 vols à Atlanta).",
+      "conclusion": "Autres (majeure) est au milieu du classement : 20,9 % de vols retardés ou annulés, rang 9 sur 14. Son rang exact n'est pas départageable."
+    },
+    "SkyWest": {
+      "rang": 10,
+      "type": "Régionale",
+      "pct_retard_ou_annule": 21.4,
+      "position": "au milieu du classement",
+      "constats": [
+        "pas séparable statistiquement de American, Autres, Comair, Delta, Envoy, United",
+        "retards graves fréquents (12,6 % de plus de 45 min, contre 7,0 %)",
+        "à mois égal, 4,4 points de moins : son calendrier la pénalise",
+        "meilleure saison : automne (11,8 %), pire : été (25,7 %)",
+        "effet domino : 16,7 % → 69,1 %",
+        "à conditions égales, pas différente de Delta (modèle)"
+      ],
+      "contexte": "Régionale sous contrat, pour 3 grandes compagnies.",
+      "conclusion": "SkyWest (régionale) est au milieu du classement : 21,4 % de vols retardés ou annulés, rang 10 sur 14. Son rang exact n'est pas départageable."
+    },
+    "Spirit": {
+      "rang": 11,
+      "type": "Bas coût",
+      "pct_retard_ou_annule": 27.0,
+      "position": "parmi les moins ponctuelles",
+      "constats": [
+        "annule beaucoup (3,4 % contre 1,4 % en moyenne)",
+        "retards graves fréquents (11,4 % de plus de 45 min, contre 7,0 %)",
+        "meilleure saison : automne (20,2 %), pire : printemps (28,3 %)",
+        "crise(s) de l'année : Crise opérationnelle de Spirit, Orages en Floride",
+        "effet domino : 20,7 % → 57,5 %",
+        "à conditions égales, cote du retard × 1,55 par rapport à Delta (modèle)"
+      ],
+      "contexte": "Bas coût extrême ; crise d'août 2021 (manque de personnel).",
+      "conclusion": "Spirit (bas coût) est parmi les moins ponctuelles : 27,0 % de vols retardés ou annulés, rang 11 sur 14. L'écart tient même à conditions égales."
+    },
+    "Frontier": {
+      "rang": 12,
+      "type": "Bas coût",
+      "pct_retard_ou_annule": 30.2,
+      "position": "parmi les moins ponctuelles",
+      "constats": [
+        "pas séparable statistiquement de Southwest",
+        "retards graves fréquents (14,1 % de plus de 45 min, contre 7,0 %)",
+        "meilleure saison : automne (17,8 %), pire : printemps (38,1 %)",
+        "crise(s) de l'année : Orages en Floride",
+        "effet domino : 26,5 % → 66,7 %",
+        "à conditions égales, cote du retard × 1,82 par rapport à Delta (modèle)"
+      ],
+      "contexte": "Bas coût extrême.",
+      "conclusion": "Frontier (bas coût) est parmi les moins ponctuelles : 30,2 % de vols retardés ou annulés, rang 12 sur 14. Son rang exact n'est pas départageable. L'écart tient même à conditions égales."
+    },
+    "Southwest": {
+      "rang": 13,
+      "type": "Bas coût",
+      "pct_retard_ou_annule": 31.3,
+      "position": "parmi les moins ponctuelles",
+      "constats": [
+        "pas séparable statistiquement de Frontier",
+        "meilleure saison : hiver (25,0 %), pire : été (36,1 %)",
+        "crise(s) de l'année : Week-end noir de Southwest, Tempête d'hiver au Texas, Orages en Floride",
+        "effet domino : 33,4 % → 67,6 %",
+        "à conditions égales, cote du retard × 1,95 par rapport à Delta (modèle)"
+      ],
+      "contexte": "Réseau de point à point (pas de grand hub) ; crise d'octobre 2021.",
+      "conclusion": "Southwest (bas coût) est parmi les moins ponctuelles : 31,3 % de vols retardés ou annulés, rang 13 sur 14. Son rang exact n'est pas départageable. L'écart tient même à conditions égales."
+    },
+    "JetBlue": {
+      "rang": 14,
+      "type": "Bas coût",
+      "pct_retard_ou_annule": 36.8,
+      "position": "parmi les moins ponctuelles",
+      "constats": [
+        "annule beaucoup (3,7 % contre 1,4 % en moyenne)",
+        "retards graves fréquents (17,2 % de plus de 45 min, contre 7,0 %)",
+        "à heure égale, 3,0 points de plus : ses horaires la flattent",
+        "meilleure saison : automne (29,4 %), pire : été (38,0 %)",
+        "crise(s) de l'année : Blizzard du Nord-Est, Orages en Floride",
+        "effet domino : 33,3 % → 78,8 %",
+        "à conditions égales, cote du retard × 2,65 par rapport à Delta (modèle)"
+      ],
+      "contexte": "Ses bases sont dans le Nord-Est : le blizzard de janvier 2022 l'a frappée.",
+      "conclusion": "JetBlue (bas coût) est parmi les moins ponctuelles : 36,8 % de vols retardés ou annulés, rang 14 sur 14. L'écart tient même à conditions égales."
+    }
+  }
+}

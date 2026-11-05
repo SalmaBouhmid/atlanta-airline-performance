@@ -1,0 +1,10 @@
+# Thème du dashboard : mêmes couleurs que les graphiques du projet
+[theme]
+base = "light"
+primaryColor = "#2a78d6"
+backgroundColor = "#fcfcfb"
+secondaryBackgroundColor = "#f1f4f9"
+textColor = "#1f2937"
+
+[browser]
+gatherUsageStats = false
