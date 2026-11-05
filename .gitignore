@@ -26,3 +26,6 @@ data/atlanta_vols.sqlite
 # Outils locaux
 .ruff_cache/
 .pytest_cache/
+
+# Notes personnelles (non publiées)
+pour_moi/
