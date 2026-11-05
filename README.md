@@ -9,7 +9,7 @@ schema with 11 SQL views, statistical analysis, a sampling study, a logistic-reg
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
 
-**▶ Live dashboard:** DEMO_URL · 🇫🇷 [Version française](README.fr.md)
+**▶ Live dashboard: [atlanta-airline-performance.streamlit.app](https://atlanta-airline-performance.streamlit.app/)** · 🇫🇷 [Version française](README.fr.md)
 
 ![Dashboard home page](docs/images/dashboard_home.png)
 

@@ -3,7 +3,7 @@
 > **Comparaison de 14 compagnies sur 319 335 vols (août 2021 – juillet 2022), effets de composition,
 > propagation des retards, et une étude d'échantillonnage qui vérifie quelles conclusions résistent.**
 
-🇬🇧 [English version](README.md) · Auteure : **Salma Bouhmid** (ingénierie des données).
+**▶ Dashboard en ligne : [atlanta-airline-performance.streamlit.app](https://atlanta-airline-performance.streamlit.app/)** · 🇬🇧 [English version](README.md) · Auteure : **Salma Bouhmid** (ingénierie des données).
 
 ## Question principale et questions secondaires
 
